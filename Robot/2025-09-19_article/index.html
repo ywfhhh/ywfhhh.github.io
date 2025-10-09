@@ -1,0 +1,3885 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" data-default-color-scheme=auto>
+
+
+
+<head>
+  <meta charset="UTF-8">
+
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/fluid.png">
+  <link rel="icon" href="/img/fluid.png">
+  
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="author" content="具身ADT">
+  <meta name="keywords" content="">
+  
+    <meta name="description" content="每日最新论文分享">
+<meta property="og:type" content="article">
+<meta property="og:title" content="2025&#x2F;09&#x2F;19报纸">
+<meta property="og:url" content="http://ywfhhh.github.io/Robot/2025-09-19_article/index.html">
+<meta property="og:site_name" content="最新前沿论文分享">
+<meta property="og:description" content="每日最新论文分享">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://172.16.18.71:9000/paper-anker/2025-09-19/TGPO_Tree-Guided_Preference_Optimization_for_Robust_Web_Agent_Reinforcement_Learning.jpg">
+<meta property="article:published_time" content="2025-09-19T00:00:00.000Z">
+<meta property="article:modified_time" content="2025-09-23T04:05:50.333Z">
+<meta property="article:author" content="具身ADT">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://172.16.18.71:9000/paper-anker/2025-09-19/TGPO_Tree-Guided_Preference_Optimization_for_Robust_Web_Agent_Reinforcement_Learning.jpg">
+  
+  
+    <meta name="referrer" content="no-referrer-when-downgrade">
+  
+  
+  <title>2025/09/19报纸 - 最新前沿论文分享</title>
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
+
+
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/github-markdown-css/4.0.0/github-markdown.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/hint.css/2.7.0/hint.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.css" />
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+<!-- Do not modify the link that theme dependent icons -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/c/font_1749284_5i9bdhy70f8.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/c/font_1736178_k526ubmyhba.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+
+  <link id="highlight-css" rel="stylesheet" href="/css/highlight.css" />
+  
+    <link id="highlight-css-dark" rel="stylesheet" href="/css/highlight-dark.css" />
+  
+
+
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    Fluid.ctx = Object.assign({}, Fluid.ctx)
+    var CONFIG = {"hostname":"ywfhhh.github.io","root":"/","version":"1.9.8","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false},"umami":{"src":null,"website_id":null,"domains":null,"start_time":"2024-01-01T00:00:00.000Z","token":null,"api_server":null}},"search_path":"/local-search.xml","include_content_in_search":true};
+
+    if (CONFIG.web_analytics.follow_dnt) {
+      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));
+    }
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+  
+
+
+  
+<!-- hexo injector head_end start -->
+<script src="/js/custom.js"></script>
+<!-- hexo injector head_end end --><meta name="generator" content="Hexo 7.3.0"></head>
+
+
+<body>
+  
+
+  <header>
+    
+
+<div class="header-inner" style="height: 70vh;">
+  <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <strong>Anker Innovations</strong>
+    </a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/Robot/" target="_self">
+                <i class="iconfont icon-tags-fill"></i>
+                <span>具身智能</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/HealthCare/" target="_self">
+                <i class="iconfont icon-tags-fill"></i>
+                <span>大健康-医疗</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/HealthTech/" target="_self">
+                <i class="iconfont icon-tags-fill"></i>
+                <span>大健康-技术</span>
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              <i class="iconfont icon-search"></i>
+            </a>
+          </li>
+          
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">
+              <i class="iconfont icon-dark" id="color-toggle-icon"></i>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  
+
+<div id="banner" class="banner" parallax=true
+     style="background: url('/img/bg/banner.png') no-repeat center center; background-size: cover;">
+  <div class="full-bg-img">
+    <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.5)">
+      <div class="banner-text text-center fade-in-up">
+        <div class="h2">
+          
+            <span id="subtitle" data-typed-text="2025/09/19报纸"></span>
+          
+        </div>
+
+        
+          
+  <div class="mt-3">
+    
+    
+      <span class="post-meta">
+        <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+        <time datetime="2025-09-19 00:00" pubdate>
+          星期五, 九月 19日 2025
+        </time>
+      </span>
+    
+  </div>
+
+  <div class="mt-1">
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-chart"></i>
+        
+          <!-- compatible with older versions-->
+          18k 字
+        
+      </span>
+    
+
+    
+
+    
+    
+      
+        <span id="busuanzi_container_page_pv" style="display: none">
+          <i class="iconfont icon-eye" aria-hidden="true"></i>
+          <span id="busuanzi_value_page_pv"></span> 次
+        </span>
+        
+
+      
+    
+  </div>
+
+
+        
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+</div>
+
+  </header>
+
+  <main>
+    
+      
+
+<div class="container-fluid nopadding-x">
+  <div class="row nomargin-x">
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+
+    </div>
+
+    <div class="col-lg-8 nopadding-x-md">
+      <div class="container nopadding-x-md" id="board-ctn">
+        <div id="board">
+          <article class="post-content mx-auto">
+            <h1 id="seo-header">2025/09/19报纸</h1>
+            
+            
+              <div class="markdown-body">
+                
+                <center><h1>2025/09/19报纸</h1></center>
+
+<p>📅 <strong>日期</strong>：2025-09-19<br>📄 <strong>发现论文数量</strong>：118  </p>
+<h2 id="rl">Reinforcement Learning</h2>
+
+
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.14172v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      1. TGPO: Tree-Guided Preference Optimization for Robust Web Agent Reinforcement Learning
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/TGPO__Tree-Guided_Preference_Optimization_for_Robust_Web_Agent_Reinforcement_Learning.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">East China Normal University</span></p>
+<p>该论文提出了一种用于Web Agent训练的树引导偏好优化（TGPO）方法，通过树结构轨迹表示合并语义相同状态，解决标签冲突，并结合过程奖励模型实现自动化细粒度奖励生成，采用动态加权机制突出关键决策点。实验结果表明TGPO在Web Agent任务上显著提升了成功率和执行效率，有效减少冗余操作。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/TGPO_Tree-Guided_Preference_Optimization_for_Robust_Web_Agent_Reinforcement_Learning.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.14163v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      2. Quantum Reinforcement Learning-Guided Diffusion Model for Image Synthesis via Hybrid Quantum-Classical Generative Model Architectures
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/Quantum_Reinforcement_Learning-Guided_Diffusion_Model_for_Image_Synthesis_via_Hybrid_Quantum-Classic.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">Independent Researcher</span></p>
+<p>本文提出了一种基于量子强化学习（QRL）的扩散模型动态引导方法，利用混合量子-经典（VQC+MLP）actor与经典critic结构，通过PPO优化在每个去噪步自适应调整Classifier-Free Guidance（CFG）权重。实验表明，该方法在CIFAR-10数据集上能够以更少参数实现更高的图像重建保真度和感知质量，相较于静态调度和纯经典RL方法表现更优。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/Quantum_Reinforcement_Learning-Guided_Diffusion_Model_for_Image_Synthesis_via_Hybrid_Quantum-Classical_Generative_Model_Architectures.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.14077v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      3. Online Bayesian Risk-Averse Reinforcement Learning
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/Online_Bayesian_Risk-Averse_Reinforcement_Learning.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">Georgia Institute of Technology</span></p>
+<p>本文提出了在线贝叶斯风险规避强化学习（BRRL）方法，采用贝叶斯风险马尔可夫决策过程（BRMDP）建模模型参数不确定性，并利用CVaR作为风险度量，通过后验采样算法在RL和上下文多臂老虎机（CMAB）环境下实现风险自适应的探索-利用平衡。论文理论上证明了BRMDP值函数的渐近正态性和风险偏差，并在算法层面提出了可达次线性遗憾界的在线采样算法，实验验证了算法在应对模型不确定性时的有效性。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/Online_Bayesian_Risk-Averse_Reinforcement_Learning.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.14016v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      4. Improving cosmological reach of a gravitational wave observatory using Deep Loop Shaping
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/Improving_cosmological_reach_of_a_gravitational_wave_observatory_using_Deep_Loop_Shaping.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">Google DeepMind, London, UK</span></p>
+<p>本论文提出了一种基于深度强化学习的Deep Loop Shaping（DLS）方法，通过频域奖励优化，设计用于LIGO引力波天文台镜面控制的非线性控制器，有效降低了10–30 Hz带宽内的控制噪声（最高降幅达100倍），大幅提升了观测灵敏度。实验结果在LIGO Livingston天文台硬件上验证，表明DLS方法能够突破传统线性控制的瓶颈，为未来引力波观测和更广泛的仪器控制系统带来显著性能提升。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/Improving_cosmological_reach_of_a_gravitational_wave_observatory_using_Deep_Loop_Shaping.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h2 id="robot">Robotics</h2>
+
+
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.14191v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      5. MCGS-SLAM: A Multi-Camera SLAM Framework Using Gaussian Splatting for High-Fidelity Mapping
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/MCGS-SLAM__A_Multi-Camera_SLAM_Framework_Using_Gaussian_Splatting_for_High-Fidelity_Mapping.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">ETH Zurich</span></p>
+<p>该论文提出MCGS-SLAM系统，融合多路同步RGB相机输入，通过3D高斯Splatting实现实时高保真三维建图。核心方法包括多相机联合捆绑调整（MCBA）和深度-尺度一致性（JDSA）优化模块，能够在无需惯性数据的情况下联合优化相机位姿与稠密深度，并保持跨视角尺度一致。实验结果表明，该方法在真实和合成数据集上均实现了优于单目方法的定位精度和重建完整性，特别适用于复杂城市环境和自动驾驶应用。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/MCGS-SLAM_A_Multi-Camera_SLAM_Framework_Using_Gaussian_Splatting_for_High-Fidelity_Mapping.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.14159v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      6. MIMIC-D: Multi-modal Imitation for MultI-agent Coordination with Decentralized Diffusion Policies
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/MIMIC-D__Multi-modal_Imitation_for_MultI-agent_Coordination_with_Decentralized_Diffusion_Policies.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">University of California Berkeley</span></p>
+<p>该论文提出了一种新的多智能体模仿学习方法MIMIC-D，基于条件扩散Transformer模型，实现多智能体在多模态任务中的去中心化协调。方法采用集中训练、分布执行（CTDE）范式，训练时各智能体共享全部信息，执行时仅用本地观测实现隐式协调，避免了需显式通讯。实验表明MIMIC-D在仿真和真实双臂硬件任务中，相比主流基线显著提升了专家轨迹分布复现能力，减少碰撞和任务失败。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/MIMIC-D_Multi-modal_Imitation_for_MultI-agent_Coordination_with_Decentralized_Diffusion_Policies.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.14143v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      7. CLAW: A Vision-Language-Action Framework for Weight-Aware Robotic Grasping
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/CLAW__A_Vision-Language-Action_Framework_for_Weight-Aware_Robotic_Grasping.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">Drexel University</span></p>
+<p>CLAW提出了一种将轻量级CLIP视觉-语言模型与π0流式VLA策略结合的架构，实现了精确的重量感知机器人抓取。该方法通过CLIP对电子秤读数进行实时监控并生成符号化语言提示，提示与多视角视觉输入共同驱动π0生成连续动作。实验结果表明，CLAW在多场景下均能可靠满足重量约束，抓取成功率显著优于单独π0基线模型。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/CLAW_A_Vision-Language-Action_Framework_for_Weight-Aware_Robotic_Grasping.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.14138v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      8. SeqVLA: Sequential Task Execution for Long-Horizon Manipulation with Completion-Aware Vision-Language-Action Model
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/SeqVLA__Sequential_Task_Execution_for_Long-Horizon_Manipulation_with_Completion-Aware_Vision-Languag.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">Virginia Tech</span></p>
+<p>该论文提出SeqVLA模型，在π0基础上引入了轻量级子任务完成检测头，实现了对多模态输入的动作生成和子任务完成状态的联合预测，并系统研究了四种微调策略（联合&#x2F;顺序微调与骨干冻结&#x2F;不冻结）。实验表明，SeqVLA显著提升了长时序任务（如沙拉和糖果包装）中的整体成功率，尤其是联合微调且不冻结骨干网络时，子任务完成判断最为高效准确，消除顺序相关失败，提升了复杂序列操控鲁棒性。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/SeqVLA_Sequential_Task_Execution_for_Long-Horizon_Manipulation_with_Completion-Aware_Vision-Language-Action_Model.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.14126v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      9. CrazyMARL: Decentralized Direct Motor Control Policies for Cooperative Aerial Transport of Cable-Suspended Payloads
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/CrazyMARL__Decentralized_Direct_Motor_Control_Policies_for_Cooperative_Aerial_Transport_of_Cable-Sus.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">Technical University of Berlin</span></p>
+<p>本文提出CrazyMARL，一种面向多无人机协作运输悬挂载荷的端到端去中心化多智能体强化学习（MARL）控制框架，通过IPPO算法和大规模JAX&#x2F;MJX仿真训练，直接输出高频PWM电机命令以实现对复杂缆绳动力学（含松紧切换）的鲁棒控制。实验结果显示，该方法在仿真和真实硬件上均能显著超越传统控制器，具备零样本迁移、强抗扰动和自主起飞能力，成功率达80%，为无人机协作运输任务提供了可扩展的解决方案。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/CrazyMARL_Decentralized_Direct_Motor_Control_Policies_for_Cooperative_Aerial_Transport_of_Cable-Suspended_Payloads.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.14117v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      10. GeoAware-VLA: Implicit Geometry Aware Vision-Language-Action Model
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/GeoAware-VLA__Implicit_Geometry_Aware_Vision-Language-Action_Model.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">Mohamed bin Zayed University of Artificial Intelligence</span></p>
+<p>GeoAware-VLA提出通过用冻结的、预训练的几何视觉模型（如VGGT）作为特征提取器，结合轻量可训练的投影层，将3D几何先验融入视觉-语言-动作模型，从而提升机器人对新颖视角的泛化能力。实验证明，该方法在LIBERO基准和真实机器人上的零样本泛化性能提升2倍以上，显著优于现有方法，且对不同动作空间均有效。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/GeoAware-VLA_Implicit_Geometry_Aware_Vision-Language-Action_Model.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.14082v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      11. FlightDiffusion: Revolutionising Autonomous Drone Training with Diffusion Models Generating FPV Video
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/FlightDiffusion__Revolutionising_Autonomous_Drone_Training_with_Diffusion_Models_Generating_FPV_Vide.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">Skolkovo Institute of Science and Technology</span></p>
+<p>该论文提出了FlightDiffusion框架，利用条件扩散模型从单帧图像和文本任务描述生成逼真的第一视角（FPV）无人机飞行视频及其对应的动作空间，通过视觉里程计模块提取状态-动作对并训练自主导航策略。实验表明，合成轨迹与真实飞行路径高度一致（位置RMSE为0.28m，姿态RMSE为0.24rad），仿真与现实中的任务成功率无显著差异，实现了高效的数据生成和优良的sim-to-real迁移。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/FlightDiffusion_Revolutionising_Autonomous_Drone_Training_with_Diffusion_Models_Generating_FPV_Video.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.14063v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      12. Language Conditioning Improves Accuracy of Aircraft Goal Prediction in Untowered Airspace
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/Language_Conditioning_Improves_Accuracy_of_Aircraft_Goal_Prediction_in_Untowered_Airspace.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">Georgia Institute of Technology</span></p>
+<p>本文提出了一种多模态框架，将自动语音识别、领域感知大模型（LLM）与时序卷积网络和高斯混合模型结合，实现了对无塔空域中飞机目标位置的概率预测。通过引入飞行员无线电通话的语言条件，实验结果表明与仅依赖运动历史的基线相比，该方法显著提升了目标预测准确率，验证了语言条件对机器人决策的正向作用。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/Language_Conditioning_Improves_Accuracy_of_Aircraft_Goal_Prediction_in_Untowered_Airspace.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.14040v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      13. Prompt2Auto: From Motion Prompt to Automated Control via Geometry-Invariant One-Shot Gaussian Process Learning
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/Prompt2Auto__From_Motion_Prompt_to_Automated_Control_via_Geometry-Invariant_One-Shot_Gaussian_Proces.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">Technical University of Munich</span></p>
+<p>本文提出了Prompt2Auto，一种基于几何不变性的一次性高斯过程(GeoGP)学习框架，使机器人能够从单次人类动作提示实现自动控制。方法核心在于通过坐标变换构建数据集，实现对平移、旋转和缩放的几何不变性，并能从单次演示泛化到多步预测和多技能识别，显著降低示范负担。实验显示，Prompt2Auto能在仿真及真实机器人场景下实现稳健的轨迹预测与主动&#x2F;被动接管任务，提升了机器人学习的通用性和鲁棒性。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/Prompt2Auto_From_Motion_Prompt_to_Automated_Control_via_Geometry-Invariant_One-Shot_Gaussian_Process_Learning.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.14025v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      14. TransforMARS: Fault-Tolerant Self-Reconfiguration for Arbitrarily Shaped Modular Aerial Robot Systems
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/TransforMARS__Fault-Tolerant_Self-Reconfiguration_for_Arbitrarily_Shaped_Modular_Aerial_Robot_System.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">National University of Singapore</span></p>
+<p>本文提出了一种通用的模块化空中机器人系统（MARS）自重构框架TransforMARS，能够在多转子和多单元故障下，通过算法识别最小可控子组件（VMCS）、路径清理和无冲突组装顺序，实现任意形状MARS的持续空中稳定和高效重构。实验和实物验证显示，该方法可处理多故障和复杂结构，显著提升了配置灵活性和故障容忍能力。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/TransforMARS_Fault-Tolerant_Self-Reconfiguration_for_Arbitrarily_Shaped_Modular_Aerial_Robot_Systems.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.14010v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      15. Whole-body Motion Control of an Omnidirectional Wheel-Legged Mobile Manipulator via Contact-Aware Dynamic Optimization
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/Whole-body_Motion_Control_of_an_Omnidirectional_Wheel-Legged_Mobile_Manipulator_via_Contact-Aware_Dy.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">Huazhong University of Science and Technology</span></p>
+<p>本文提出了一种用于全向轮足移动操作机器人（集成灵巧机械臂）的全身运动控制方法，采用基于接触动力学的统一动态优化框架，将机械臂点接触和轮地线接触建模整合，配合热启动策略实现高维系统的实时优化控制，并开发了适用于4WIS-4WID驱动方式的统一运动学模型，无需在不同运动模式间频繁切换。仿真和真实机器人实验验证了该方法在不规则地形高机动性移动、精准操作任务中的有效性，表现出优异的稳定性和控制精度。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/Whole-body_Motion_Control_of_an_Omnidirectional_Wheel-Legged_Mobile_Manipulator_via_Contact-Aware_Dynamic_Optimization.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.13972v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      16. BIM Informed Visual SLAM for Construction Monitoring
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/BIM_Informed_Visual_SLAM_for_Construction_Monitoring.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">University of Luxembourg</span></p>
+<p>该论文提出了一种结合建筑信息模型（BIM）结构先验的RGB-D视觉SLAM系统，用于建筑施工监测。方法通过将检测到的墙体与BIM墙体进行匹配，并将其作为约束集成到SLAM后端优化中，实现了结构一致性与轨迹校正。实验证明，该系统在实际工地和办公环境中显著减少了轨迹漂移和地图误差，提升了大规模场景下的监测精度，且可实时运行。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/BIM_Informed_Visual_SLAM_for_Construction_Monitoring.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.13956v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      17. SEG-Parking: Towards Safe, Efficient, and Generalizable Autonomous Parking via End-to-End Offline Reinforcement Learning
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/SEG-Parking__Towards_Safe,_Efficient,_and_Generalizable_Autonomous_Parking_via_End-to-End_Offline_Re.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">The Hong Kong University of Science and Technology (Guangzhou)</span></p>
+<p>该论文提出了一种端到端的离线强化学习（RL）框架SEG-Parking，实现了在非结构化、动态交互停车场景下的安全高效自动泊车。方法包括构建交互式停车数据集、预训练目标条件状态编码器、并采用带保守正则项的离线RL策略优化，最终在CARLA仿真环境中验证取得最高成功率和出色的泛化能力。结论：该方法显著提升了自动泊车的安全性、效率和泛化能力，优于多种主流基线方法。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/SEG-Parking_Towards_Safe_Efficient_and_Generalizable_Autonomous_Parking_via_End-to-End_Offline_Reinforcement_Learning.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.13949v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      18. SHaRe-RL: Structured, Interactive Reinforcement Learning for Contact-Rich Industrial Assembly Tasks
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/SHaRe-RL__Structured,_Interactive_Reinforcement_Learning_for_Contact-Rich_Industrial_Assembly_Tasks.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">Bielefeld University</span></p>
+<p>该论文提出SHaRe-RL，一个结合结构化操作原语（MP-Nets）、人类演示与在线修正、以及自适应逐轴安全力限的强化学习框架，实现工业机器人在接触密集型装配任务中的高效安全学习。实验表明该方法在工业连接器插入任务中能在三小时内达到95%成功率和低于人类专家的周期时间，提升了工业RL方法的实用性和经济性。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/SHaRe-RL_Structured_Interactive_Reinforcement_Learning_for_Contact-Rich_Industrial_Assembly_Tasks.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.13943v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      19. Reinforcement Learning for Autonomous Point-to-Point UAV Navigation
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/Reinforcement_Learning_for_Autonomous_Point-to-Point_UAV_Navigation.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">University of Lagos</span></p>
+<p>本文提出了一种基于强化学习（PPO算法）的自主四旋翼无人机（UAV）点对点导航方法，采用高保真3D仿真平台、身体坐标系观测与复合奖励函数，在4096个并行环境中训练无人机通过低层控制实现高效、平稳、安全的飞行导航。实验结果表明，该方法可自发产生平滑减速、稳定悬停和高效路径规划等行为，并具备较强的泛化与鲁棒性，为仿真到现实的迁移奠定基础。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/Reinforcement_Learning_for_Autonomous_Point-to-Point_UAV_Navigation.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.13934v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      20. Large Language Model-Empowered Decision Transformer for UAV-Enabled Data Collection
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/Large_Language_Model-Empowered_Decision_Transformer_for_UAV-Enabled_Data_Collection.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">Queen Mary University of London</span></p>
+<p>该论文提出了一个面向无人机（UAV）数据采集的能效最大化联合轨迹规划与资源分配问题。方法上，首先将资源分配子问题转化为线性规划并高效求解；针对无人机轨迹规划问题，提出了融合大语言模型（LLM）与决策Transformer（DT）的批评者正则化框架（LLM-CRDT），结合LoRA高效微调技术，使模型能在小规模数据集和有限计算资源下快速适应UAV控制任务。结论表明，该方法可从次优数据集中学习高效政策，能量效率较现有DT方法提升最高达36.7%。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/Large_Language_Model-Empowered_Decision_Transformer_for_UAV-Enabled_Data_Collection.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.13857v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      21. InterKey: Cross-modal Intersection Keypoints for Global Localization on OpenStreetMap
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/InterKey__Cross-modal_Intersection_Keypoints_for_Global_Localization_on_OpenStreetMap.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">The University of Sydney</span></p>
+<p>本文提出InterKey框架，通过联合编码点云与OpenStreetMap(OSM)中交叉口周围的道路和建筑轮廓，生成紧凑的二值描述符，并引入模态差异消除、方向确定和区域均衡采样等策略，实现点云与OSM之间鲁棒的交叉模态匹配。实验表明，该方法在KITTI数据集上显著优于现有OSM定位方法，实现了更高精度和更强泛化能力，适用于多种产生稠密结构点云的传感器。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/InterKey_Cross-modal_Intersection_Keypoints_for_Global_Localization_on_OpenStreetMap.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.13839v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      22. Pre-Manipulation Alignment Prediction with Parallel Deep State-Space and Transformer Models
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/Pre-Manipulation_Alignment_Prediction_with_Parallel_Deep_State-Space_and_Transformer_Models.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">Keio University</span></p>
+<p>本文提出了一种用于预测机器人操纵任务中自然语言指令、操纵前的自中心图像与规划轨迹三者是否一致的模型。方法上，创新性地引入了多层次轨迹融合模块（并行深度状态空间模型S4与Transformer编码器）以及三模态交叉集成模块，分别用于多层次时序建模和三模态对齐。实验结果表明，该方法在开放词汇操纵任务预测中准确率高于多种主流基线方法，显著提升了任务前的准确性和安全性。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/Pre-Manipulation_Alignment_Prediction_with_Parallel_Deep_State-Space_and_Transformer_Models.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.13833v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      23. Track Any Motions under Any Disturbances
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/Track_Any_Motions_under_Any_Disturbances.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">Tsinghua University</span></p>
+<p>本文提出Any2Track，一种面向类人机器人运动跟踪的两阶段强化学习框架，包括通用运动跟踪器AnyTracker和历史感知自适应模块AnyAdapter。该方法通过先分离训练运动跟踪能力，再利用世界模型学习和适配器结构，实现对地形、外力和物理属性变化等多种真实环境扰动下的高质量运动跟踪，在仿真及真实硬件上均取得了显著性能提升。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/Track_Any_Motions_under_Any_Disturbances.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.13832v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      24. UltraHiT: A Hierarchical Transformer Architecture for Generalizable Internal Carotid Artery Robotic Ultrasonography
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/UltraHiT__A_Hierarchical_Transformer_Architecture_for_Generalizable_Internal_Carotid_Artery_Robotic_.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">Tsinghua University</span></p>
+<p>该论文提出了UltraHiT层次化Transformer决策架构，融合高层变异识别与低层动作决策，实现了对颈内动脉(ICA)自动超声扫描。方法包括高层模块检测解剖变异，触发基于知识的标准路径或数据驱动的自适应修正器，两者均采用因果Transformer并利用历史扫描序列。结论是UltraHiT首次实现临床所需的ICA自动扫描，并在未见个体上达到95%成功率，优于现有方法且在复杂条件下表现出强鲁棒性。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/UltraHiT_A_Hierarchical_Transformer_Architecture_for_Generalizable_Internal_Carotid_Artery_Robotic_Ultrasonography.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.13816v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      25. Agile in the Face of Delay: Asynchronous End-to-End Learning for Real-World Aerial Navigation
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/Agile_in_the_Face_of_Delay__Asynchronous_End-to-End_Learning_for_Real-World_Aerial_Navigation.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">Harbin Institute of Technology, Shenzhen</span></p>
+<p>本文提出了一种异步端到端强化学习框架，将感知与控制解耦，以解决自主无人机在高频控制与低频感知之间的时序冲突。核心创新包括高效的LiDAR数据处理、理论支持的时序编码模块（TEM）应对感知延迟，以及两阶段课程学习策略提升异步策略稳定性。实验结果表明，该方法在仿真和实机零样本迁移中均能实现100Hz高频控制，显著提升了复杂环境下的敏捷性和鲁棒性。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/Agile_in_the_Face_of_Delay_Asynchronous_End-to-End_Learning_for_Real-World_Aerial_Navigation.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.13782v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      26. Who is Introducing the Failure? Automatically Attributing Failures of Multi-Agent Systems via Spectrum Analysis
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/Who_is_Introducing_the_Failure__Automatically_Attributing_Failures_of_Multi-Agent_Systems_via_Spectr.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">Nanjing University</span></p>
+<p>该论文提出Famas，一种基于谱分析的多智能体系统（MAS）失败归因方法。Famas通过多次重执行任务、LLM语义解析日志、层次聚类抽象轨迹，并结合自定义可疑度公式（结合Agent行为和Action行为指标），自动定位引发失败的关键动作。实验结果表明，Famas在Who&amp;When基准集上显著优于12个主流基线，在Agent和Action层面都取得最高归因准确率，能够有效提升多智能体系统的自动调试和可靠性。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/Who_is_Introducing_the_Failure_Automatically_Attributing_Failures_of_Multi-Agent_Systems_via_Spectrum_Analysis.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.13780v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      27. Behavior Foundation Model for Humanoid Robots
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/Behavior_Foundation_Model_for_Humanoid_Robots.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">Peking University</span></p>
+<p>本文提出了Behavior Foundation Model（BFM），一种针对人形机器人全身控制的生成式基础模型，采用大规模行为数据集预训练，并结合掩码在线蒸馏与条件变分自编码器（CVAE）方法，统一不同控制模式实现跨任务泛化和零样本新技能学习。实验证明，BFM在多种仿真和真实人形机器人任务中表现优异，具备强泛化能力、行为组合与高效新行为获取能力。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/Behavior_Foundation_Model_for_Humanoid_Robots.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.13774v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      28. Dual-Actor Fine-Tuning of VLA Models: A Talk-and-Tweak Human-in-the-Loop Approach
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/Dual-Actor_Fine-Tuning_of_VLA_Models__A_Talk-and-Tweak_Human-in-the-Loop_Approach.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">Beijing Xiaomi Robot Technology Co., Ltd.</span></p>
+<p>本文提出了一种基于强化学习的人类在环双智能体视觉-语言-动作（VLA）模型微调框架，集成主智能体进行多任务鲁棒动作生成，精细智能体在潜空间中依据自然语言指导实现细粒度动作校正。通过将人类物理干预映射为语义化语言命令（talk-and-tweak），实现高效数据采集和指令可解释性，实验证明在真实多任务和长时序操作中，该方法显著提升机器人操作成功率和训练效率，支持多机器人协同训练。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/Dual-Actor_Fine-Tuning_of_VLA_Models_A_Talk-and-Tweak_Human-in-the-Loop_Approach.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.13691v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      29. SPAR: Scalable LLM-based PDDL Domain Generation for Aerial Robotics
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/SPAR__Scalable_LLM-based_PDDL_Domain_Generation_for_Aerial_Robotics.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">University of Pennsylvania</span></p>
+<p>本论文提出SPAR框架，利用大型语言模型（LLM）结合链式思考推理（CoT）、相关实例检索和动作迭代反馈机制，实现无人机（UAV）任务的PDDL领域文件自动生成。评测显示，该方法可高效生成语法与语义均准确的领域模型，大幅提升规划开发效率，便于实际部署与后续研究。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/SPAR_Scalable_LLM-based_PDDL_Domain_Generation_for_Aerial_Robotics.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.13771v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      30. CDFlow: Generative Gradient Flows for Configuration Space Distance Fields via Neural ODEs
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/CDFlow__Generative_Gradient_Flows_for_Configuration_Space_Distance_Fields_via_Neural_ODEs.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">Guangdong Laboratory of Artificial Intelligence and Digital Economy (SZ), Shenzhen University</span></p>
+<p>该论文提出CDFlow框架，通过神经常微分方程（Neural ODE）学习配置空间中最小距离碰撞构型的分布式连续梯度流，并引入自适应采样策略以高保真度生成训练数据。实验表明，该方法在高自由度机器人运动规划任务中极大提升了规划的成功率、效率和轨迹质量，尤其在多模态和奇异性场景下表现突出。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/CDFlow_Generative_Gradient_Flows_for_Configuration_Space_Distance_Fields_via_Neural_ODEs.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.13769v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      31. AdaThinkDrive: Adaptive Thinking via Reinforcement Learning for Autonomous Driving
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/AdaThinkDrive__Adaptive_Thinking_via_Reinforcement_Learning_for_Autonomous_Driving.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">Tsinghua University</span></p>
+<p>该论文提出了AdaThinkDrive，一种融合视觉-语言-动作的自适应推理自动驾驶框架，通过“快答&#x2F;慢思”机制结合大规模预训练与两阶段监督微调，并设计了基于场景复杂度的Adaptive Think Reward与GRPO强化学习，实现模型在不同场景自动选择推理或直接输出。实验表明，AdaThinkDrive在NAVSIM基准上达到SOTA性能，能够根据场景复杂度平衡推理准确性与计算效率。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/AdaThinkDrive_Adaptive_Thinking_via_Reinforcement_Learning_for_Autonomous_Driving.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.13737v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      32. Dynamic Adaptive Legged Locomotion Policy via Decoupling Reaction Force Control and Gait Control
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/Dynamic_Adaptive_Legged_Locomotion_Policy_via_Decoupling_Reaction_Force_Control_and_Gait_Control.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">Westlake University</span></p>
+<p>本文提出了一种将支撑腿反作用力控制与摆动腿步态控制解耦的混合控制框架：在线MPC负责支撑腿的地面反作用力控制，实现动态自适应，而强化学习策略专注于步态跟踪与运动生成。实验表明，该方法在应对水平外力扰动、不平地形、重载和仿真到现实迁移任务中表现出更强的鲁棒性和适应性，有效缩小了仿真与现实的性能差距。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/Dynamic_Adaptive_Legged_Locomotion_Policy_via_Decoupling_Reaction_Force_Control_and_Gait_Control.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.13733v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      33. FSR-VLN: Fast and Slow Reasoning for Vision-Language Navigation with Hierarchical Multi-modal Scene Graph
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/FSR-VLN__Fast_and_Slow_Reasoning_for_Vision-Language_Navigation_with_Hierarchical_Multi-modal_Scene_.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">Horizon Robotics</span></p>
+<p>本论文提出FSR-VLN系统，通过构建层次化多模态场景图（HMSG），结合快速（CLIP特征匹配）与慢速（VLM推理）导航推理流程，实现机器人在真实环境中基于视觉-语言指令的高效长距离导航。实验证明FSR-VLN在室内机器人导航任务中显著提升了检索成功率和响应速度，支持自然语言交互并在多数据集上超越主流方法。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/FSR-VLN_Fast_and_Slow_Reasoning_for_Vision-Language_Navigation_with_Hierarchical_Multi-modal_Scene_Graph.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.13731v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      34. Reinforcement Learning for Robotic Insertion of Flexible Cables in Industrial Settings
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/Reinforcement_Learning_for_Robotic_Insertion_of_Flexible_Cables_in_Industrial_Settings.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">Sogang University</span></p>
+<p>本论文提出了一种基于视觉语义分割与自监督自动提示的强化学习方法，用于工业环境下灵活扁平电缆(FFC)的机器人高精度插入。方法通过仿真环境下视觉近似化任务训练RL智能体，并利用SAM2分割模型与VLM自动提示实现零样本真实部署，无需微调。实验表明，该方法能有效提升复杂变形体插入任务的自动化和泛化能力，实现高成功率和较短完成时间。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/Reinforcement_Learning_for_Robotic_Insertion_of_Flexible_Cables_in_Industrial_Settings.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.13704v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      35. InfraMind: A Novel Exploration-based GUI Agentic Framework for Mission-critical Industrial Management
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/InfraMind__A_Novel_Exploration-based_GUI_Agentic_Framework_for_Mission-critical_Industrial_Managemen.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">Nanyang Technological University</span></p>
+<p>该论文提出InfraMind，一个为工业管理系统量身定制的、基于探索的GUI智能体框架。方法上，InfraMind采用模块化Perception–Reasoning–Action循环，结合虚拟机快照回滚，实现复杂GUI自动探索、知识积累与迁移、状态识别、以及多层安全机制。实验表明，InfraMind在关键工业平台上显著提升任务成功率与效率，具备强适应性和可扩展性。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/InfraMind_A_Novel_Exploration-based_GUI_Agentic_Framework_for_Mission-critical_Industrial_Management.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.13692v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      36. HGACNet: Hierarchical Graph Attention Network for Cross-Modal Point Cloud Completion
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/HGACNet__Hierarchical_Graph_Attention_Network_for_Cross-Modal_Point_Cloud_Completion.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">Nanyang Technological University</span></p>
+<p>该论文提出了HGACNet，一个分层的图注意力网络框架，用于融合点云几何特征和来自单视图RGB图像的视觉先验，实现高保真点云补全。方法包括HGA编码器（分层图注意力下采样和几何特征提取）、Swin Transformer图像编码、MSCF多尺度跨模态融合模块，以及C-Loss对比损失用于特征分布对齐。结果表明HGACNet在ShapeNet-ViPC和YCB-Complete数据集上达到SOTA性能，尤其提升了机器人感知任务中的补全效果。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/HGACNet_Hierarchical_Graph_Attention_Network_for_Cross-Modal_Point_Cloud_Completion.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.13649v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      37. Barometer-Aided Attitude Estimation
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/Barometer-Aided_Attitude_Estimation.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">University of Quebec in Outaouais</span></p>
+<p>本论文提出了一种结合连续-离散Riccati观测器和SO(3)非线性观测器的两级级联观测结构，通过融合IMU、气压计和磁力计数据，实现无GNSS环境下的鲁棒姿态估计。理论证明了该方法在持续激励运动下误差全局收敛，仿真验证了其在初始状态和姿态不确定性下的快速收敛和高精度。结论表明该方法对提升自主系统在GNSS受限环境中的姿态估计具有实际意义。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/Barometer-Aided_Attitude_Estimation.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h2 id="cv">Computer Vision</h2>
+
+
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.14199v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      38. Dense Video Understanding with Gated Residual Tokenization
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/Dense_Video_Understanding_with_Gated_Residual_Tokenization.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">Northeastern University</span></p>
+<p>该论文提出了Dense Video Understanding任务，旨在让视频大语言模型（vLLMs）以高帧率捕捉和理解视频中的细粒度时序信息。方法上，作者设计了Gated Residual Tokenization（GRT）两阶段框架，包括运动补偿的门控帧间分块（动态patch筛选）和语义场景级token合并，大幅减少高帧率下的token冗余和计算成本，并提出了DIVE高帧率视频理解基准。实验表明，该方法在DIVE上超越了更大规模的vLLM基线，并随着帧率提升持续改善；GRT框架在加速tokenization的同时保证了信息保真，实现高效可扩展的高帧率视频理解。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/Dense_Video_Understanding_with_Gated_Residual_Tokenization.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.14165v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      39. Where Do Tokens Go? Understanding Pruning Behaviors in STEP at High Resolutions
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/Where_Do_Tokens_Go__Understanding_Pruning_Behaviors_in_STEP_at_High_Resolutions.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">Université Paris-Saclay</span></p>
+<p>该论文提出STEP (SuperToken and Early-Pruning) 框架，通过动态内容自适应的patch合并（dCTS模块）和阶段性早停token裁剪，显著提升了ViT在高分辨率语义分割任务中的计算效率。实验表明，STEP在保持较高分割精度的同时，实现了高达4倍的计算复杂度降低和1.7倍的推理速度提升，最大精度损失不超过2%。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/Where_Do_Tokens_Go_Understanding_Pruning_Behaviors_in_STEP_at_High_Resolutions.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.14151v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      40. BEVUDA++: Geometric-aware Unsupervised Domain Adaptation for Multi-View 3D Object Detection
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/BEVUDA++__Geometric-aware_Unsupervised_Domain_Adaptation_for_Multi-View_3D_Object_Detection.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">Peking University</span></p>
+<p>本文提出了BEVUDA++，一种针对多视角3D目标检测的几何感知无监督领域自适应（UDA）框架，采用教师-学生结构，包括可靠深度教师（RDT）和几何一致学生（GCS），通过结合目标域LiDAR和不确定性引导的深度预测，联合多空间特征对齐以缓解多几何空间的领域偏移积累，并引入不确定性引导的指数滑动平均（UEMA）提升伪标签可靠性。实验结果表明，BEVUDA++在多个跨域场景下显著提升了3D目标检测性能，在Day-Night等任务上NDS提升达12.9%、mAP提升9.5%，实现了当前最优水平。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/BEVUDA%2B%2B_Geometric-aware_Unsupervised_Domain_Adaptation_for_Multi-View_3D_Object_Detection.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.14142v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      41. MARS2 2025 Challenge on Multimodal Reasoning: Datasets, Methods, Results, Discussion, and Outlook
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/MARS2_2025_Challenge_on_Multimodal_Reasoning__Datasets,_Methods,_Results,_Discussion,_and_Outlook.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">Tsinghua University</span></p>
+<p>本论文介绍了MARS2 2025多模态推理挑战赛，提出了针对现实世界和专业场景的多模态大模型推理基准，发布了Lens与AdsQA两个数据集，涵盖视觉定位、空间感知问答和广告视频推理三大赛道，并系统评测了40余种主流多模态大模型和特定任务模型，采用数据增强、提示工程、强化学习对齐等多种方法推动复杂推理能力提升。实验显示，在复杂现实场景和广告视频领域，即使最先进的MLLMs在推理任务上仍与人类有明显差距，强调了多模态推理的挑战性和持续发展的重要性。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/MARS2_2025_Challenge_on_Multimodal_Reasoning_Datasets_Methods_Results_Discussion_and_Outlook.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.14104v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      42. CSMoE: An Efficient Remote Sensing Foundation Model with Soft Mixture-of-Experts
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/CSMoE__An_Efficient_Remote_Sensing_Foundation_Model_with_Soft_Mixture-of-Experts.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">Technische Universität Berlin</span></p>
+<p>本文提出了一种高效的遥感基础模型CSMoE，通过将Soft Mixture-of-Experts机制集成到Cross-Sensor Masked Autoencoder（CSMAE）中，实现了模态特定专家专精与跨传感器表征学习相结合，并设计了基于主题-气候描述符的数据采样策略以提升训练集代表性。实验表明，CSMoE在场景分类、语义分割和图像检索等任务中，在保持或提升表现的同时，大幅降低了训练与推理的计算需求，达到现有遥感基础模型中代表性能力、准确率和计算效率的最佳平衡。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/CSMoE_An_Efficient_Remote_Sensing_Foundation_Model_with_Soft_Mixture-of-Experts.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.14084v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      43. AD-DINOv3: Enhancing DINOv3 for Zero-Shot Anomaly Detection with Anomaly-Aware Calibration
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/AD-DINOv3__Enhancing_DINOv3_for_Zero-Shot_Anomaly_Detection_with_Anomaly-Aware_Calibration.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">Sun Yat-Sen University</span></p>
+<p>本文提出AD-DINOv3，首次将DINOv3自监督视觉主干应用于零样本异常检测（ZSAD），并通过跨模态对比学习（CMCL）结合轻量级适配器对视觉和文本特征进行校准，充分利用多层次视觉表示；同时设计了异步感知校准模块（AACM），引导CLS token关注异常区域。实验表明，AD-DINOv3在工业和医疗领域八项基准上表现优异，显著优于现有方法，提升了异常与正常区域的分离能力。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/AD-DINOv3_Enhancing_DINOv3_for_Zero-Shot_Anomaly_Detection_with_Anomaly-Aware_Calibration.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.14055v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      44. WAN-ANIMATE: Unified Character Animation and Replacement with Holistic Replication
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/Wan-Animate__Unified_Character_Animation_and_Replacement_with_Holistic_Replication.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">Tongyi Lab, Alibaba</span></p>
+<p>该论文提出了Wan-Animate，一个统一的角色动画与替换框架，基于扩散Transformer（DiT）和Wan-I2V模型，通过改进输入范式和多模态控制信号（骨架驱动与隐式面部表征），实现了高保真角色运动与表情的精确复刻，并在角色替换任务中引入Relighting LoRA模块以增强环境融合一致性。实验表明，Wan-Animate在动画生成和角色替换的表现均优于现有开源及商用方法，具备极强的通用性和高质量生成能力。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/WAN-ANIMATE_Unified_Character_Animation_and_Replacement_with_Holistic_Replication.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.14036v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      45. SSL-SSAW: Self-Supervised Learning with Sigmoid Self-Attention Weighting for Question-Based Sign Language Translation
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/SSL-SSAW__Self-Supervised_Learning_with_Sigmoid_Self-Attention_Weighting_for_Question-Based_Sign_Lan.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">Tianjin University</span></p>
+<p>该论文提出了一种面向问题的手语翻译新任务（QB-SLT），替代传统高成本的gloss标注，利用自然对话中的问题文本为辅助信息。方法上，作者设计了跨模态自监督对齐与Sigmoid自注意力加权（SSAW）模块，实现了问题文本与手语视频特征的自适应融合，并引入自监督学习增强上下文建模与泛化能力。实验在CSL-Daily-QA和PHOENIX-2014T-QA数据集上取得了SOTA表现，结果显示引入问题辅助能超过甚至替代gloss标注，极大提升了翻译精度和实际应用价值。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/SSL-SSAW_Self-Supervised_Learning_with_Sigmoid_Self-Attention_Weighting_for_Question-Based_Sign_Language_Translation.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.14033v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      46. SAIL-VL2 Technical Report
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/SAIL-VL2_Technical_Report.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">Douyin SAIL Team</span></p>
+<p>SAIL-VL2是一款开源的视觉-语言基础模型，采用高质量数据筛选与渐进式多阶段训练（包括基于SAIL-ViT视觉编码器、MLP适配器和Qwen3系列LLM的融合，并引入稀疏MoE架构），涵盖从图像、视频到复杂多模态推理。其通过多阶段预训练与SFT-RL混合范式，显著提升模型在106项视觉-语言理解与推理基准上的表现，并在OpenCompass等主流榜单中取得同参数量级下的领先成绩，验证了“小模型强性能”的高效设计理念。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/SAIL-VL2_Technical_Report.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.14029v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      47. Deep Learning-Driven Peptide Classification in Biological Nanopores
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/Deep_Learning-Driven_Peptide_Classification_in_Biological_Nanopores.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">Institute for Computational Physics, University of Stuttgart</span></p>
+<p>该论文提出通过将纳米孔实验得到的肽类分子电流信号经连续小波变换转为scaleogram图像，应用深度视觉模型（如ResNet-18、ResNeXt101和Vision Transformer）进行肽类分子分类，显著提升了分类精度。实验在42种肽上取得81.7%的准确率，优于先前方法，并验证了模型压缩与迁移部署的可行性，为纳米孔实时疾病诊断提供了新思路。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/Deep_Learning-Driven_Peptide_Classification_in_Biological_Nanopores.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.14001v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      48. MOCHA: Multi-modal Objects-aware Cross-arcHitecture Alignment
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/MOCHA__Multi-modal_Objects-aware_Cross-arcHitecture_Alignment.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">Samsung R&amp;D Institute UK</span></p>
+<p>该论文提出MOCHA，一种多模态对象感知跨架构蒸馏方法，将大型视觉-语言教师模型（如LLaVa）的区域级多模态语义迁移到轻量级视觉检测学生模型（如YOLO）。其核心方法包括三阶段流程：基于检测数据集的学生预训练、通过特征翻译模块将学生特征对齐到教师多模态空间并联合优化局部与全局结构的蒸馏损失、冻结骨干后使用原型网络实现个性化少样本学习。结果表明，MOCHA在四个个性化检测基准上平均提升+10.1分，且推理成本极低，适合实际低资源部署。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/MOCHA_Multi-modal_Objects-aware_Cross-arcHitecture_Alignment.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.13936v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      49. Noise-Level Diffusion Guidance: Well Begun is Half Done
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/Noise-Level_Diffusion_Guidance__Well_Begun_is_Half_Done.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">University of Southampton</span></p>
+<p>本文提出了一种新颖的噪声级引导（Noise Level Guidance, NLG）方法，通过对扩散模型初始噪声进行简单、高效且通用的优化，无需额外数据集、辅助网络或反向传播，直接提升初始噪声与条件（如文本、类别或质量度量）的对齐概率。实验表明，NLG方法在五大基准测试中提升了生成图像的质量和条件遵循度，且与现有主流方法相比，速度提升4倍、显存降低3倍，具备良好泛化能力和实用性。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/Noise-Level_Diffusion_Guidance_Well_Begun_is_Half_Done.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.13922v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      50. Towards Robust Defense against Customization via Protective Perturbation Resistant to Diffusion-based Purification
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/Towards_Robust_Defense_against_Customization_via_Protective_Perturbation_Resistant_to_Diffusion-base.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">Institute of Automation, Chinese Academy of Sciences</span></p>
+<p>本文提出了针对扩散模型定制过程中的安全防护难题，正式定义了“抗净化”任务，并分析了现有防护扰动方法易被扩散式净化去除的问题。作者提出了AntiPure方法，结合Patch-wise Frequency Guidance和Erroneous Timestep Guidance，增强高频扰动并干扰时序去噪，使防护扰动在净化-定制流程中更难被去除。实验结果表明，AntiPure在各项指标上优于现有方法，能在扩散净化后有效保持防护效果并提升图像失真度，有助于防止深度伪造和版权侵犯。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/Towards_Robust_Defense_against_Customization_via_Protective_Perturbation_Resistant_to_Diffusion-based_Purification.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.13907v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      51. White Aggregation and Restoration for Few-shot 3D Point Cloud Semantic Segmentation
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/White_Aggregation_and_Restoration_for_Few-shot_3D_Point_Cloud_Semantic_Segmentation.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">Sungkyunkwan University</span></p>
+<p>本文提出了一种针对少样本3D点云语义分割的原型生成方法——White Aggregation and Restoration Module (WARM)。该方法通过在跨注意力机制前后分别引入特征白化和着色变换，有效缓解了现有原型生成方法中由于特征分布不对齐导致的性能不稳定问题，从而实现更具代表性的原型构造。实验结果表明，该方法在多个公开基准上取得了显著优于现有方法的表现，验证了所提方法的有效性和稳健性。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/White_Aggregation_and_Restoration_for_Few-shot_3D_Point_Cloud_Semantic_Segmentation.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.13863v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      52. LAMIGAUSS: PITCHING RADIATIVE GAUSSIAN FOR SPARSE-VIEW X-RAY LAMINOGRAPHY RECONSTRUCTION
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/LamiGauss__Pitching_Radiative_Gaussian_for_Sparse-View_X-ray_Laminography_Reconstruction.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">City University of Hong Kong</span></p>
+<p>该论文提出了LamiGauss算法，将3D Gaussian Splatting辐射光栅化与针对倾斜角度的检测器到世界变换模型结合，实现了X射线层析成像在极少投影条件下的高效重建。通过引入显式伪影过滤的初始化方法，能够有效抑制层析伪影，提高优化效率和重建质量，在仅用3%全量视图的情况下，显著优于传统和迭代方法。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/LAMIGAUSS_PITCHING_RADIATIVE_GAUSSIAN_FOR_SPARSE-VIEW_X-RAY_LAMINOGRAPHY_RECONSTRUCTION.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.13858v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      53. EDITS: Enhancing Dataset Distillation with Implicit Textual Semantics
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/EDITS__Enhancing_Dataset_Distillation_with_Implicit_Textual_Semantics.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">The University of Electronic Science and Technology of China</span></p>
+<p>本文提出了一种新颖的数据集蒸馏框架EDITS，通过引入Vision Language Model生成的外部文本语义，利用全局语义查询（GSQ）模块融合视觉与文本特征，局部语义感知（LSA）模块选择代表性样本并构建图像与文本原型，最终以双原型引导（DPG）策略结合扩散模型生成高质量合成数据集。实验表明，该方法在ImageNet子集、CIFAR10&#x2F;100等多个数据集和架构下均显著优于现有方法，提高了蒸馏数据的语义丰富性和模型泛化能力。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/EDITS_Enhancing_Dataset_Distillation_with_Implicit_Textual_Semantics.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.13848v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      54. SpecDiff: Accelerating Diffusion Model Inference with Self-Speculation
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/SpecDiff__Accelerating_Diffusion_Model_Inference_with_Self-Speculation.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">Shanghai Jiao Tong University</span></p>
+<p>SpecDiff提出了一种基于自推测的多级特征缓存策略，通过结合历史信息与未来信息动态分配token重要性分数，实现特征高效选择与分层处理。实验表明，该方法在Stable Diffusion 3、3.5和FLUX模型上实现了2.80×、2.74×和3.17×的加速，且图像质量损失极小，显著突破了扩散模型加速和精度的Pareto前沿。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/SpecDiff_Accelerating_Diffusion_Model_Inference_with_Self-Speculation.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.13846v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      55. Consistent View Alignment Improves Foundation Models for 3D Medical Image Segmentation
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/Consistent_View_Alignment_Improves_Foundation_Models_for_3D_Medical_Image_Segmentation.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">University of Twente</span></p>
+<p>本文提出了Consistent View Alignment (CVA)方法，通过在自监督预训练中对3D医学图像的不同视图进行空间重叠区域一致性对齐，显式缓解对比学习中的虚假正样本问题，并强化局部特征一致性。实验结果表明，CVA及其NT-Xent变体（C-CVA）显著提升了下游分割任务的表现，尤其是在结合全局对比损失时，分割性能达到SOTA，并在MICCAI 2025挑战赛中获得优异成绩。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/Consistent_View_Alignment_Improves_Foundation_Models_for_3D_Medical_Image_Segmentation.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.13789v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      56. BWCache: Accelerating Video Diffusion Transformers through Block-Wise Caching
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/BWCache__Accelerating_Video_Diffusion_Transformers_through_Block-Wise_Caching.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">School of Artificial Intelligence, Beijing Normal University</span></p>
+<p>本文提出了一种训练无关的视频生成加速方法BWCache，通过分析Diffusion Transformer (DiT) 各块在去噪过程中的特征动态，发现中间时刻块特征高度相似，存在计算冗余。BWCache利用块级缓存技术和特征相似性指标，动态缓存并复用DiT块特征，同时周期性重新计算以防止潜在漂移，实现显著提升推理速度且保持视频视觉质量。实验表明，BWCache在多个主流视频扩散模型上速度提升达2.24倍，视觉质量无明显损失，具备实际应用潜力。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/BWCache_Accelerating_Video_Diffusion_Transformers_through_Block-Wise_Caching.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.13784v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      57. CETUS: Causal Event-Driven Temporal Modeling With Unified Variable-Rate Scheduling
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/CETUS__Causal_Event-Driven_Temporal_Modeling_With_Unified_Variable-Rate_Scheduling.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">Jianghan University</span></p>
+<p>该论文提出了Variable-Rate Spatial Event Mamba架构，直接处理异步事件流，无需中间帧或体素表示，采用轻量级邻域编码器和Mamba状态空间模型进行高效时空建模，并通过自适应速率控制器动态调整推理速度以优化延迟。实验结果显示该方法在无人机事件检测任务上精度与效率均优于现有方法，模型参数极少且端到端延迟显著降低。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/CETUS_Causal_Event-Driven_Temporal_Modeling_With_Unified_Variable-Rate_Scheduling.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.13768v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      58. Generative Image Coding with Diffusion Prior
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/Generative_Image_Coding_with_Diffusion_Prior.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">China Telecom Cloud Computing Research Institute</span></p>
+<p>本文提出了一种基于扩散先验的生成式图像编码框架，通过预优化编码器、轻量级适配器和注意力融合模块，将压缩域表征与预训练扩散模型的内部特征融合，实现高效且人感知质量优越的低码率图像压缩。实验表明，该方法在低比特率下的视觉保真度优于现有方法，并在压缩率上相较H.266&#x2F;VVC提升最高达79%，同时兼容自然场景和AI生成内容。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/Generative_Image_Coding_with_Diffusion_Prior.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.13767v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      59. VocSegMRI: Multimodal Learning for Precise Vocal Tract Segmentation in Real-time MRI
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/VocSegMRI__Multimodal_Learning_for_Precise_Vocal_Tract_Segmentation_in_Real-time_MRI.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">Friedrich-Alexander-Universität Erlangen-Nürnberg</span></p>
+<p>本文提出了VocSegMRI，一种融合视觉（rtMRI）、音频和音系信息的多模态声道分割方法。该方法基于视觉Transformer（ViT）、音频编码器（WavLM）和轻量级MLP对不同模态进行表征，并通过交叉注意力融合和对比学习实现跨模态特征对齐。实验结果表明，该方法在USC-75数据集上取得了Dice 0.95和HD95 4.20mm的SOTA分割性能，显著优于单模态和简单融合基线，尤其提升了小结构的分割鲁棒性。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/VocSegMRI_Multimodal_Learning_for_Precise_Vocal_Tract_Segmentation_in_Real-time_MRI.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.13762v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      60. Task-Aware Image Signal Processor for Advanced Visual Perception
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/Task-Aware_Image_Signal_Processor_for_Advanced_Visual_Perception.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">University of Electronic Science and Technology of China</span></p>
+<p>本文提出了TA-ISP（Task-Aware Image Signal Processing），一种轻量级RAW到RGB的框架，通过全局、区域和像素级的多粒度调制模块，生成面向下游视觉任务的表示，显著提升了目标检测和分割等视觉感知任务的性能。实验证明，TA-ISP不仅大幅提升了准确率，还极大降低了参数量和推理延迟，适合资源受限设备部署。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/Task-Aware_Image_Signal_Processor_for_Advanced_Visual_Perception.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.13760v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      61. Iterative Prompt Refinement for Safer Text-to-Image Generation
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/Iterative_Prompt_Refinement_for_Safer_Text-to-Image_Generation.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">Korea University</span></p>
+<p>本文提出了一种迭代式提示词优化算法（IPR），利用视觉-语言模型（VLM）分析用户输入的文本提示和生成的图像，通过视觉反馈多步修正提示词，从而提升文本到图像生成（T2I）模型的安全性。作者还构建了新数据集ToxiClean-IT，并将提示词优化训练分为监督微调和RL两个阶段。实验表明，该方法能有效减少有害内容的生成，并在不牺牲用户意图对齐度的前提下提升安全性，具备很好的跨模型泛化能力。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/Iterative_Prompt_Refinement_for_Safer_Text-to-Image_Generation.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.13711v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      62. StyleProtect: Safeguarding Artistic Identity in Fine-tuned Diffusion Models
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/StyleProtect__Safeguarding_Artistic_Identity_in_Fine-tuned_Diffusion_Models.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">Lehigh University</span></p>
+<p>本论文提出StyleProtect，一种针对扩散模型微调时艺术风格被恶意模仿的问题的保护机制。方法在分析扩散模型中交叉注意力层对风格敏感性的基础上，仅对最敏感的交叉注意力层施加优化扰动，从而在不影响原图像质量的前提下，有效削弱模型对艺术风格的学习与复制能力。实验结果表明，StyleProtect在WikiArt和Anita动漫数据集上能高效保护艺术风格，且扰动难以察觉，性能优于现有主流基线。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/StyleProtect_Safeguarding_Artistic_Identity_in_Fine-tuned_Diffusion_Models.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.13687v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      63. Taylor-Series Expanded Kolmogorov-Arnold Network for Medical Imaging Classification
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/Taylor-Series_Expanded_Kolmogorov-Arnold_Network_for_Medical_Imaging_Classification.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">Wilfrid Laurier University</span></p>
+<p>本文提出三种基于样条的Kolmogorov–Arnold网络（KAN）架构，用于医疗影像分类，包括SBTAYLOR-KAN（样条与泰勒级数结合）、SBRBF-KAN（样条与径向基函数结合）和SBWAVELET-KAN（样条与莫雷莱小波结合）。这些模型能高效捕捉局部和全局非线性特征，无需图像预处理，直接对原始数据进行训练，且参数量极少（SBTAYLOR-KAN仅2872），在多种医学影像数据集上表现出强泛化能力和稳定性。结论显示，SBTAYLOR-KAN在数据有限和类别不均衡场景下仍能保持高准确率，具备较强实际部署价值。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/Taylor-Series_Expanded_Kolmogorov-Arnold_Network_for_Medical_Imaging_Classification.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.13636v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      64. Multimodal Signal Fusion for Stress Detection Using Deep Neural Networks: A Novel Approach for Converting 1D Signals to Unified 2D Images
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/Multimodal_signal_fusion_for_stress_detection_using_deep_neural_networks__a_novel_approach_for_conve.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">University of Tehran</span></p>
+<p>该论文提出了一种将多模态生理信号（PPG、GSR、ACC）融合为统一的二维图像矩阵的方法，通过自定义颜色映射和信号动态排列增强CNN对压力检测的能力。实验采用WESAD数据集，使用两阶段训练策略和多信号排列，实现了95.86%的测试准确率，显著优于传统处理方式。结论显示该方法提升了模式识别和模型泛化能力，适用于可穿戴健康监测等领域。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/Multimodal_Signal_Fusion_for_Stress_Detection_Using_Deep_Neural_Networks_A_Novel_Approach_for_Converting_1D_Signals_to_Unified_2D_Images.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.13631v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      65. Federated Learning for Deforestation Detection: A Distributed Approach with Satellite Imagery
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/Federated_Learning_for_Deforestation_Detection__A_Distributed_Approach_with_Satellite_Imagery.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">NIT Rourkela</span></p>
+<p>该论文提出了一个基于FLOWER和RAY框架的联邦学习方法，用于卫星影像中的森林砍伐检测，采用YOLOS-small（ViT变体）、Faster R-CNN（ResNet50与MobileNetV3骨干）等模型，并对FedAvg和FedAvgM两种聚合策略进行了系统评估。实验结果显示，MobileNetV3骨干的Faster R-CNN结合FedAvgM在多客户端下表现最为稳定且准确（IoU≈85%），ViT在小规模时可达最高IoU≈93%，但扩展性较差，整体表明联邦学习能在保障数据隐私下取得与集中式方法相当的检测效果。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/Federated_Learning_for_Deforestation_Detection_A_Distributed_Approach_with_Satellite_Imagery.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.13629v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      66. SAMIR, an efficient registration framework via robust feature learning from SAM
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/SAMIR,_an_efficient_registration_framework_via_robust_feature_learning_from_SAM.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">Hunan University</span></p>
+<p>该论文提出SAMIR，一种基于Segment Anything Model (SAM) 的高效医学图像配准框架。方法包括使用SAM预训练视觉编码器提取结构感知特征，通过轻量3D头模块进行医学领域适配，并设计分层特征一致性损失以指导多尺度特征配准。实验结果表明，SAMIR在心脏MRI和腹部CT数据集上均显著优于现有方法，提升了2.68%和6.44%的Dice分数，对噪声与强度变化具有更强鲁棒性。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/SAMIR_an_efficient_registration_framework_via_robust_feature_learning_from_SAM.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.13615v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      67. See, Think, Act: Teaching Multimodal Agents to Effectively Interact with GUI by Identifying Toggles
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/See,_Think,_Act__Teaching_Multimodal_Agents_to_Effectively_Interact_with_GUI_by_Identifying_Toggles.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">School of Computer Science, Shanghai Jiao Tong University</span></p>
+<p>该论文提出了StaR（State-aware Reasoning）训练方法，通过引导多模态智能体在执行GUI二元切换任务时，依次感知当前切换状态、分析用户目标状态，并基于两者比较做出行动决策，有效提升了智能体的执行准确率。实验表明StaR能显著提升三大主流多模态智能体在切换指令上的准确率超过30%，并在多项基准任务和动态环境下展现出良好泛化与实际应用潜力。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/See_Think_Act_Teaching_Multimodal_Agents_to_Effectively_Interact_with_GUI_by_Identifying_Toggles.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.13612v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      68. Rest2Visual: Predicting Visually Evoked fMRI from Resting-State Scans
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/Rest2Visual__Predicting_Visually_Evoked_fMRI_from_Resting-State_Scans.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">The University of Sydney</span></p>
+<p>该论文提出Rest2Visual模型，通过条件生成网络结合静息态fMRI和视觉刺激图像，预测个体化的视觉诱发fMRI响应。方法采用3D卷积编码器-解码器结构，利用自适应归一化融合多尺度脑部特征与视觉语义，实现空间精确、刺激特异的脑激活合成。实验显示模型可高保真地还原视觉诱发激活，保留个体差异，并能支持图像重建，表明静息态神经活动可转化为功能性、刺激对齐的表征。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/Rest2Visual_Predicting_Visually_Evoked_fMRI_from_Resting-State_Scans.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.13605v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      69. A Generalization of CLAP from 3D Localization to Image Processing, A Connection With RANSAC & Hough Transforms
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/A_Generalization_of_CLAP_from_3D_Localization_to_Image_Processing,_A_Connection_With_RANSAC_&_Hough_.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">University of California, Los Angeles</span></p>
+<p>本文将CLAP（Clustering to Localize Across n Possibilities）方法从2D定位推广到3D定位和图像处理领域，提出了基于聚类一致性识别正确解集的通用稳健估计算法。通过在SE(3)空间进行聚类实现3D位姿估计，并在同伦空间进行图像拼接，实验表明CLAP在高异常值和歧义匹配环境下优于RANSAC等传统方法。结论：CLAP框架统一了稳健估计思路，在机器人和视觉任务中表现出更高的鲁棒性。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/A_Generalization_of_CLAP_from_3D_Localization_to_Image_Processing_A_Connection_With_RANSAC_%26_Hough_Transforms.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h2 id="llm">Large Language Model</h2>
+
+
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.14234v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      70. Compute as Teacher: Turning Inference Compute Into Reference-Free Supervision
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/Compute_as_Teacher__Turning_Inference_Compute_Into_Reference-Free_Supervision.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">University of Oxford</span></p>
+<p>本文提出了Compute as Teacher (CaT) 方法，通过利用模型自身的推理计算，将并行生成的多组输出在无参考答案情况下进行综合，利用冻结的初始策略合成参考答案并据此优化当前策略。CaT可在可验证任务中通过程序化等价检查奖励模型输出，在不可验证任务中则自动生成可审核rubric并由独立LLM评判，显著提升了Gemma 3 4B、Qwen 3 4B、Llama 3.1 8B等模型的数学和医疗场景表现，且CaT-RL训练进一步带来30%以上的相对提升，证明推理计算可替代人工标注实现高效监督。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/Compute_as_Teacher_Turning_Inference_Compute_Into_Reference-Free_Supervision.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.14233v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      71. Apertus: Democratizing Open and Compliant LLMs for Global Language Environments
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/Apertus__Democratizing_Open_and_Compliant_LLMs_for_Global_Language_Environments.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">EPFL</span></p>
+<p>本论文提出了Apertus，一套完全开源、数据合规且覆盖1811种语言的大型语言模型（LLM），通过创新的数据合规机制（包括robots.txt全程及溯及执行）、Goldfish损失函数降低训练数据复现风险、多语言数据扩充和全流程开源，实现了模型的高安全性、强多语言能力和合规透明。实验表明，Apertus在多语言基准测试中达到或超越同规模开源模型，显著提升了数据合规性和多语言表现，且全流程可复现、便于审计和扩展。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/Apertus_Democratizing_Open_and_Compliant_LLMs_for_Global_Language_Environments.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.14230v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      72. NIRVANA: Structured Pruning Reimagined for Large Language Models Compression
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/NIRVANA__Structured_pruning_reimagined_for_large_language_models_compression.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">University of Illinois Urbana-Champaign</span></p>
+<p>NIRVANA是一种面向大语言模型压缩的结构化剪枝方法，核心技术包括基于神经切线核（NTK）和Adam优化动态的权重显著性评分、全局分层与模块（注意力&#x2F;MLP）自适应稀疏分配策略，以及基于KL散度的校准数据选择机制。实验结果表明，NIRVANA在保持零样本准确率和后续微调能力的同时，显著优于现有结构化剪枝方法，在等稀疏率下实现更好的模型压缩与推理效率。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/NIRVANA_Structured_Pruning_Reimagined_for_Large_Language_Models_Compression.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.14223v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      73. Language models’ activations linearly encode training-order recency
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/Language_models'_activations_linearly_encode_training-order_recency.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">University of Cambridge</span></p>
+<p>本文通过对Llama-3.2-1B模型在六个顺序排列的数据集上进行逐步微调，实证展示了大语言模型的激活状态能够线性地编码训练时信息的学习顺序。作者发现，测试样本的平均激活在二维子空间投影后，能够准确反映训练顺序，并且线性探针可在未见实体上泛化区分“早期”与“晚期”实体，准确率约90%。即使在混合数据长期训练后，该时序信号依然持久，且不归因于简单的激活统计或模型置信度，模型也可被微调以报告未见实体的训练阶段（约80%准确率）。结论表明，语言模型能够区分知识获取的时间，为模型应对知识冲突和修改提供了新的理解。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/Language_models%E2%80%99_activations_linearly_encode_training-order_recency.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.14169v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      74. TopoSizing: An LLM-aided Framework of Topology-based Understanding and Sizing for AMS Circuits
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/TopoSizing__An_LLM-aided_Framework_of_Topology-based_Understanding_and_Sizing_for_AMS_Circuits.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">Peking University</span></p>
+<p>该论文提出了TopoSizing框架，将图算法与大语言模型（LLM）结合，实现了从原始电路网表出发的分层电路结构理解和参数分配，并将此理解结果用于优化器（Bayesian Optimization, BO）中的初始采样和信任域调整。实验在四个真实AMS电路上表明，该方法在电路理解和参数分配上达到100%准确率，在约束满足任务中采样效率提升1.4–4.8倍、运行速度提升1.2–3.5倍，并显著减少LLM调用次数。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/TopoSizing_An_LLM-aided_Framework_of_Topology-based_Understanding_and_Sizing_for_AMS_Circuits.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.14093v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      75. Reasoning Efficiently Through Adaptive Chain-of-Thought Compression: A Self-Optimizing Framework
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/Reasoning_Efficiently_Through_Adaptive_Chain-of-Thought_Compression__A_Self-Optimizing_Framework.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">The State Key Laboratory of Blockchain and Data Security, Zhejiang University</span></p>
+<p>本文提出了SEER（Self-Enhancing Efficient Reasoning）框架，通过自适应链式思维（CoT）压缩，提升大语言模型（LLM）的推理效率。SEER采用自增强范式，结合Best-of-N采样和任务感知自适应过滤，自动选择简洁且正确的推理路径，显著减少推理长度并降低推理环和截断问题。实验结果表明，SEER在软件工程与数学推理任务上平均压缩CoT长度42.1%，同时保持甚至提升准确率，有效提升了LLM在资源受限和高复杂度任务下的实用性和鲁棒性。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/Reasoning_Efficiently_Through_Adaptive_Chain-of-Thought_Compression_A_Self-Optimizing_Framework.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.14030v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      76. CrowdAgent: Multi-Agent Managed Multi-Source Annotation System
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/CrowdAgent__Multi-Agent_Managed_Multi-Source_Annotation_System.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">Zhejiang University</span></p>
+<p>该论文提出了CrowdAgent系统，通过多智能体协作，将大语言模型（LLMs）、小型模型（SLMs）与人类专家动态结合，优化数据标注流程，实现任务分配、质量控制与成本管理自动化。实验证明，CrowdAgent在多模态分类任务中，相较于同等人力占比的主流方法，能以更低成本达成更高标注质量。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/CrowdAgent_Multi-Agent_Managed_Multi-Source_Annotation_System.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.13978v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      77. LLM Agents for Interactive Workflow Provenance: Reference Architecture and Evaluation Methodology
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/LLM_Agents_for_Interactive_Workflow_Provenance__Reference_Architecture_and_Evaluation_Methodology.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">Oak Ridge National Lab.</span></p>
+<p>本文提出了一种模块化参考架构和评价方法，利用大语言模型（LLM）智能体实现科学工作流全流程溯源数据的实时自然语言查询与分析。核心方法包括面向元数据的轻量级动态数据流schema、检索增强生成（RAG）和可扩展的提示工程，在Edge-Cloud-HPC等多场景下支持高效、交互式的工作流监控和异常检测。实验结果表明，GPT和Claude等主流LLM在不同任务类型下均表现出较高准确率，设计具备良好通用性与可扩展性，为复杂科学工作流的数据分析与可重复性研究提供了高效工具。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/LLM_Agents_for_Interactive_Workflow_Provenance_Reference_Architecture_and_Evaluation_Methodology.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.13927v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      78. DSpAST: Disentangled Representations for Spatial Audio Reasoning with Large Language Models
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/DSpAST__Disentangled_Representations_for_Spatial_Audio_Reasoning_with_Large_Language_Models.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">Aalborg University</span></p>
+<p>本文提出了DSpAST，一种用于空间音频推理的大型语言模型音频编码器，通过引入多种空间音频特征、特征注意力模块和任务专用分支，实现了对声事件检测、距离预测和入射方向估计三项任务的特征解耦。实验结果表明，DSpAST在参数量几乎不变（仅增加0.2%）的情况下，显著优于现有SpatialAST模型，并在空间音频推理系统BAT中提升整体性能。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/DSpAST_Disentangled_Representations_for_Spatial_Audio_Reasoning_with_Large_Language_Models.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.13905v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      79. Do Large Language Models Understand Word Senses?
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/Do_Large_Language_Models_Understand_Word_Senses_.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">Babelscape</span></p>
+<p>本文系统评估了指令微调的大型语言模型（LLMs）在词义消歧（WSD）任务上的表现，并与专用WSD系统进行了比较，同时考察了LLMs在定义生成、自由解释和例句生成等语义理解任务中的能力。结果显示，GPT-4o和DeepSeek-V3等顶级LLM能在WSD任务上达到与专业系统相当的表现，并且在跨领域和高难度数据集上更具鲁棒性；在生成类任务上，LLM能以最高98%的准确率解释词义，特别是在自由生成解释任务中表现最佳。结论：LLMs在理解词义方面已达到高水平，但仍与人类专家有一定差距。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/Do_Large_Language_Models_Understand_Word_Senses.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.13892v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      80. Synthetic Data Generation for Screen Time and App Usage
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/Synthetic_Data_Generation_for_Screen_Time_and_App_Usage.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">Universidade Lusófona</span></p>
+<p>本论文提出利用大型语言模型（LLM），如ChatGPT-4o，通过不同提示策略（包括自我提示和种子数据引入）生成结构化且具行为可行性的智能手机使用合成数据。实验结果显示，详细化和带种子数据的自我提示可生成结构合规、部分行为接近真实的数据，但在捕捉人类行为多样性和周期性等方面仍有不足，提示需针对具体场景设计评价指标并进一步优化提示设计。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/Synthetic_Data_Generation_for_Screen_Time_and_App_Usage.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.13888v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      81. Combating Biomedical Misinformation through Multi-modal Claim Detection and Evidence-based Verification
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/Combating_Biomedical_Misinformation_through_Multi-modal_Claim_Detection_and_Evidence-based_Verificat.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">University of Naples Federico II</span></p>
+<p>该论文提出CER系统，通过集成大语言模型（LLM）和密集检索技术，实现了对生物医学文本、网页和视频等多模态内容中医学主张的自动检测、检索科学证据和可信度判定。CER在HealthFC、BioASQ-7和SciFact等基准数据集上取得了领先的F1分数，并能有效辅助深度伪造检测，显著提升生物医学信息核查的自动化和准确性。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/Combating_Biomedical_Misinformation_through_Multi-modal_Claim_Detection_and_Evidence-based_Verification.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.13879v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      82. Combining Evidence and Reasoning for Biomedical Fact-Checking
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/Combining_Evidence_and_Reasoning_for_Biomedical_Fact-Checking.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">University of Naples Federico II</span></p>
+<p>本论文提出CER框架，结合科学文献检索、LLM推理和监督式真伪预测，实现对生物医学领域主张的自动化事实核查。实验显示，该方法在多个医学事实核查基准数据集上优于现有技术，具备良好的泛化能力和鲁棒性。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/Combining_Evidence_and_Reasoning_for_Biomedical_Fact-Checking.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.13866v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      83. Masked Diffusion Models as Energy Minimization
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/Masked_Diffusion_Models_as_Energy_Minimization.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">Gaoling School of Artificial Intelligence, Renmin University of China</span></p>
+<p>本文提出了一个系统的理论框架，将Masked Diffusion Models (MDMs) 视为离散最优传输中的能量最小化问题的解，并证明了动能、条件动能和测地能量三种能量表述在MDM结构下的等价性。当掩码调度满足封闭形式的最优条件时，MDM可同时最小化这三类能量。基于此理论，作者设计了基于Beta分布的插值调度参数化方法，将高维调度设计空间降至可行的二维搜索，实现了无需改动模型即可进行高效、任务自适应的采样调度微调。实验表明，能量驱动的调度在低步采样下优于常用手工调度。结论：该理论统一了MDM的采样机制，并在实际任务中提升了采样效率。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/Masked_Diffusion_Models_as_Energy_Minimization.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.13836v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      84. Diving into Mitigating Hallucinations from a Vision Perspective for Large Vision-Language Models
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/Diving_into_Mitigating_Hallucinations_from_a_Vision_Perspective_for_Large_Vision-Language_Models.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">Bilibili</span></p>
+<p>本文提出VHBench-10，一个细分LVLM视觉幻觉的基准，涵盖检测、分割、定位和分类等10类视觉误差，并系统评估不同视觉编码器对幻觉表现的影响。基于此分析，作者提出VisionWeaver，一种上下文感知的专家路由网络，能动态整合多视觉专家特征，大幅减少幻觉并提升模型性能。实验证明VisionWeaver在多项基准上有效抑制幻觉，提升LVLM可靠性。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/Diving_into_Mitigating_Hallucinations_from_a_Vision_Perspective_for_Large_Vision-Language_Models.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.13790v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      85. Teaching According to Talents! Instruction Tuning LLMs with Competence-Aware Curriculum Learning
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/Teaching_According_to_Talents!_Instruction_Tuning_LLMs_with_Competence-Aware_Curriculum_Learning.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">Tsinghua University</span></p>
+<p>本文提出CAMPUS框架，通过多视角动态课程调度和模型能力感知难度指标，为大语言模型（LLM）高效指令微调自适应地安排训练数据顺序，核心流程包括多指标数据排序、模型困惑度动态批次选择，以及奖励模型训练以实现能力感知。实验结果显示，CAMPUS在数学、代码和通用任务上均优于现有最先进方法，提升平均性能约7%，且能与其他数据筛选策略兼容显著增强微调效果。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/Teaching_According_to_Talents%21_Instruction_Tuning_LLMs_with_Competence-Aware_Curriculum_Learning.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.13775v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      86. Exploring Data and Parameter Efficient Strategies for Arabic Dialect Identifications
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/Exploring_Data_and_Parameter_Efficient_Strategies_for_Arabic_Dialect_Identifications.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">IDSIA-USI&#x2F;SUPSI, Switzerland</span></p>
+<p>本文系统评估了在阿拉伯方言识别任务中多种数据高效与参数高效策略，包括硬提示（zero-shot和few-shot推理）、软提示（prefix-tuning、prompt-tuning、P-tuning、P-tuningV2）与LoRA参数重参数化。实验表明，当前LLMs在区分细粒度方言时zero-shot和few-shot推理能力有限，软提示方法优于硬提示，LoRA微调模型效果最佳，甚至超过了全量微调。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/Exploring_Data_and_Parameter_Efficient_Strategies_for_Arabic_Dialect_Identifications.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.13773v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      87. MIRA: Empowering One-Touch AI Services on Smartphones with MLLM-based Instruction Recommendation
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/MIRA__Empowering_One-Touch_AI_Services_on_Smartphones_with_MLLM-based_Instruction_Recommendation.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">Shenzhen University</span></p>
+<p>本文提出了MIRA框架，通过多模态大语言模型（MLLM）实现智能手机上一键式AI服务推荐。方法包括结构化推理、模板增强推理和前缀树约束解码，以从图像或文本触发对象中提取关键信息，推断用户意图并生成精准操作指令。实验与用户调研表明，MIRA在推荐准确率和资源效率上明显优于现有方法，为移动端AI服务集成提供高效方案。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/MIRA_Empowering_One-Touch_AI_Services_on_Smartphones_with_MLLM-based_Instruction_Recommendation.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.13772v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      88. Who Taught the Lie? Responsibility Attribution for Poisoned Knowledge in Retrieval-Augmented Generation
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/Who_Taught_the_Lie__Responsibility_Attribution_for_Poisoned_Knowledge_in_Retrieval-Augmented_Generat.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">Nankai University</span></p>
+<p>本文提出了RAGOrigin，一种针对Retrieval-Augmented Generation (RAG) 系统的黑盒责任归因方法，通过自适应范围缩减和多维度指标（检索排名、语义相关性、生成影响力）为知识库文本分配责任分数，并用无监督聚类分离出被投毒文本。实验覆盖七个数据集和十五种攻击，结果显示RAGOrigin能高效准确识别和定位导致错误生成的有毒文本，且在动态和嘈杂环境下表现鲁棒，对现有方法有显著提升。结论：RAGOrigin大幅提升了RAG系统的可追溯性和安全性，适用于实际部署。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/Who_Taught_the_Lie_Responsibility_Attribution_for_Poisoned_Knowledge_in_Retrieval-Augmented_Generation.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.13761v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      89. THOR: Tool-Integrated Hierarchical Optimization via RL for Mathematical Reasoning
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/THOR__Tool-Integrated_Hierarchical_Optimization_via_RL_for_Mathematical_Reasoning.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">University of Science and Technology of China</span></p>
+<p>该论文提出THOR框架，通过多智能体actor-critic的数据管道TIRGen自动生成工具集成推理数据，并采用分层强化学习策略对大语言模型进行轨迹级和步骤级联合优化，提升数学推理与代码生成能力。结论显示THOR在多个数学与代码基准上取得显著性能提升，并具备良好的模型泛化性与低推理成本。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/THOR_Tool-Integrated_Hierarchical_Optimization_via_RL_for_Mathematical_Reasoning.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.13753v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      90. ST-LINK: Spatially-Aware Large Language Models for Spatio-Temporal Forecasting
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/ST-LINK__Spatially-Aware_Large_Language_Models_for_Spatio-Temporal_Forecasting.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">Pohang University of Science and Technology</span></p>
+<p>本文提出ST-LINK框架，通过引入空间增强注意力(SE-Attention)和记忆检索前馈网络(MRFFN)，提升大语言模型(LLM)对时空依赖关系的建模能力。实验结果表明，ST-LINK在多个交通流量和需求预测任务上优于现有深度学习和LLM方法，能够有效捕捉规律性与突发性交通变化，实现鲁棒且高效的时空预测。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/ST-LINK_Spatially-Aware_Large_Language_Models_for_Spatio-Temporal_Forecasting.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.13706v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      91. Automated Triaging and Transfer Learning of Incident Learning Safety Reports Using Large Language Representational Models
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/Automated_Triaging_and_Transfer_Learning_of_Incident_Learning_Safety_Reports_Using_Large_Language_Re.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">University of Washington School of Medicine</span></p>
+<p>本论文提出了一种基于自然语言处理（NLP）的自动化工具，利用BlueBERT大语言模型和支持向量机（SVM）对放射肿瘤领域的事件报告进行高危事件自动分级，并通过跨机构转移学习提升模型泛化能力。实验结果表明，经过转移学习微调的BlueBERT模型在小型外部多机构数据集上性能显著提升，且在部分任务上可达到与人类专家相当的准确度，显示了NLP在医疗安全报告自动分流与提升效率方面的潜力。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/Automated_Triaging_and_Transfer_Learning_of_Incident_Learning_Safety_Reports_Using_Large_Language_Representational_Models.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.13702v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      92. DSCC-HS: A Dynamic Self-Reinforcing Framework for Hallucination Suppression in Large Language Models
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/DSCC-HS__A_Dynamic_Self-Reinforcing_Framework_for_Hallucination_Suppression_in_Large_Language_Models.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">China University of Petroleum</span></p>
+<p>本论文提出DSCC-HS框架，结合对抗式代理模型（事实对齐代理FAP与幻觉检测代理HDP）通过对比logit空间优化进行训练，并在推理阶段实时注入词表对齐的指导向量，无需修改大型语言模型参数，主动抑制幻觉。实验证明该方法在TruthfulQA和BioGEN基准上显著提升事实一致性、降低幻觉分数，在多种任务上超越现有主流方法，展现了高效、可扩展的LLM幻觉抑制性能。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/DSCC-HS_A_Dynamic_Self-Reinforcing_Framework_for_Hallucination_Suppression_in_Large_Language_Models.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.13683v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      93. Improving Context Fidelity via Native Retrieval-Augmented Reasoning
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/Improving_Context_Fidelity_via_Native_Retrieval-Augmented_Reasoning.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">Université de Montréal</span></p>
+<p>本文提出了一种原生检索增强推理（CARE）框架，通过让大语言模型（LLM）在推理过程中自主检索并整合上下文证据，提高其对给定上下文的忠实度。CARE采用两阶段训练流程：首先进行有限标注证据数据的有监督微调，再通过强化学习和课程学习策略优化模型的自检索和推理能力。实验表明，CARE在多个真实和反事实问答基准上，检索准确率和答案质量均显著优于传统RAG方法和外部检索方案。结论：CARE能有效提升LLM在知识密集型任务中的上下文利用效率与输出可靠性。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/Improving_Context_Fidelity_via_Native_Retrieval-Augmented_Reasoning.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.13676v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      94. Re-purposing SAM into Efficient Visual Projectors for MLLM-Based Referring Image Segmentation
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/Re-purposing_SAM_into_Efficient_Visual_Projectors_for_MLLM-Based_Referring_Image_Segmentation.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">Zhejiang University</span></p>
+<p>该论文提出了一种高效的语义视觉投影器（SVP），利用SAM生成的语义超像素，将其压缩投射为视觉token，以适应场景复杂度动态缩减token序列，同时保证语义完整性。通过引入语义超像素位置嵌入（SSPE）和语义超像素聚合器（SSA），增强MLLM对图像结构和局部细节的理解。实验表明，SVP可将视觉token数量减少93%，显著提升训练与推理效率，且性能优于现有压缩视觉投影器。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/Re-purposing_SAM_into_Efficient_Visual_Projectors_for_MLLM-Based_Referring_Image_Segmentation.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.13672v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      95. CL2GEC: A Multi-Discipline Benchmark for Continual Learning in Chinese Literature Grammatical Error Correction
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/CL$^2$GEC__A_Multi-Discipline_Benchmark_for_Continual_Learning_in_Chinese_Literature_Grammatical_Err.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">Tsinghua Shenzhen International Graduate School, Tsinghua University</span></p>
+<p>本文提出CL2GEC，首个面向中文学术写作的多学科持续学习语法纠错基准，涵盖10个学科1万句人工标注样本，并支持顺序训练与灾难性遗忘评测。实验基于大语言模型与多种持续学习算法，结果显示正则化和投影类方法优于简单顺序微调和回放策略，且性能受模型和学科顺序影响；研究为自适应语法纠错和多领域写作助手奠定基准。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/CL2GEC_A_Multi-Discipline_Benchmark_for_Continual_Learning_in_Chinese_Literature_Grammatical_Error_Correction.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.13664v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      96. Sparse Neurons Carry Strong Signals of Question Ambiguity in LLMs
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/Sparse_Neurons_Carry_Strong_Signals_of_Question_Ambiguity_in_LLMs.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">Brown University</span></p>
+<p>本论文提出通过线性探针定位并操控大型语言模型（LLM）内部稀疏的“歧义编码神经元”（AENs），在预填充阶段即可检测并控制问题歧义。实验表明，仅需极少数神经元即可高效区分歧义与明确信息，并能通过激活操控将模型输出从直接作答转为回避或澄清，表现优于现有基于提示和表示的方法，且在不同模型和数据集间具有良好泛化能力。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/Sparse_Neurons_Carry_Strong_Signals_of_Question_Ambiguity_in_LLMs.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.13642v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      97. LLM-I: LLMs are Naturally Interleaved Multimodal Creators
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/LLM-I__LLMs_are_Naturally_Interleaved_Multimodal_Creators.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">Zhejiang University</span></p>
+<p>本文提出了LLM-Interleaved (LLM-I) 框架，将交错的图文生成任务转化为工具使用问题，由大语言模型或多模态大模型作为智能中枢，根据内容需求动态调用图像搜索、扩散生成、代码执行和图像编辑等多种视觉工具，并通过结合规则、LLM及MLLM评审的混合奖励进行强化学习训练和推理时多轮筛选优化。实验结果显示LLM-I在四项主流基准上显著优于现有方法，证明了LLM具备天然复杂多模态创造能力，为未来多模态智能体发展提供新范式。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/LLM-I_LLMs_are_Naturally_Interleaved_Multimodal_Creators.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.13626v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      98. Mind the Gap: Aligning Knowledge Bases with User Needs to Enhance Mental Health Retrieval
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/Mind_the_Gap__Aligning_Knowledge_Bases_with_User_Needs_to_Enhance_Mental_Health_Retrieval.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">Princeton University</span></p>
+<p>本文提出了一种AI驱动的内容缺口分析与定向知识库扩充框架，通过融合真实用户论坛数据和心理健康资源，利用LLM进行内容分类、缺口识别及合成文档生成，有效提升检索增强生成（RAG）的相关性和有用性。实验结果显示，针对性扩充知识库能以显著更少的新增文档（减少58–82%工作量）达到接近最优的检索质量，为高风险领域如心理健康信息平台的高效扩展提供了可行策略。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/Mind_the_Gap_Aligning_Knowledge_Bases_with_User_Needs_to_Enhance_Mental_Health_Retrieval.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.13625v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      99. Privacy-Aware In-Context Learning for Large Language Models
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/Privacy-Aware_In-Context_Learning_for_Large_Language_Models.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">SRI International</span></p>
+<p>本文提出了一种差分隐私（DP）机制的私有预测框架，用于在不需微调的前提下生成高质量且隐私保护的合成文本。方法通过对敏感数据的子集进行并行推理，并对每步生成的token输出分布进行差分隐私剪裁、聚合和与公共分布融合，实现了高效、实用的隐私保护合成文本生成，并将生成结果用于LLM的in-context learning任务。实验结果表明，该方法在多项基准任务上优于现有SOTA，能够有效提升few-shot学习准确率，同时防止敏感信息泄露。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/Privacy-Aware_In-Context_Learning_for_Large_Language_Models.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.13624v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      100. Latent Traits and Cross-Task Transfer: Deconstructing Dataset Interactions in LLM Fine-tuning
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/Latent_Traits_and_Cross-Task_Transfer__Deconstructing_Dataset_Interactions_in_LLM_Fine-tuning.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">University of Massachusetts Amherst</span></p>
+<p>本文提出了一套分析框架，利用性能矩阵及主成分分析（PCA）方法系统性剖析大语言模型（LLM）在LoRA微调后跨任务迁移的潜在能力与副作用。研究发现，迁移学习的提升或退化更多受源数据集的隐藏统计属性（如类别分布、生成长度倾向、特定语言特征）影响，而非表面上的任务相似性或数据质量，揭示了模型微调过程中的非直观交互，为更可控和高效的LLM适配提供了理论基础。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/Latent_Traits_and_Cross-Task_Transfer_Deconstructing_Dataset_Interactions_in_LLM_Fine-tuning.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.13608v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      101. Is GPT-4o mini Blinded by its Own Safety Filters? Exposing the Multimodal-to-Unimodal Bottleneck in Hate Speech Detection
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/Is_GPT-4o_mini_Blinded_by_its_Own_Safety_Filters__Exposing_the_Multimodal-to-Unimodal_Bottleneck_in_.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">Ecole de technologie supérieure - ETS</span></p>
+<p>本论文系统分析了OpenAI GPT-4o mini在多模态仇恨言论检测中的安全架构，采用Hateful Memes Challenge数据集，通过多阶段实验发现模型存在“单模态瓶颈”，即视觉与文本的独立安全过滤器会在多模态推理前先行拦截内容。结论显示，这种架构导致模型对高风险和无害内容均产生大量误判，严重限制了其实际安全性和表达自由，呼吁未来需开发更具上下文理解能力的集成安全体系。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/Is_GPT-4o_mini_Blinded_by_its_Own_Safety_Filters_Exposing_the_Multimodal-to-Unimodal_Bottleneck_in_Hate_Speech_Detection.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.13603v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      102. Modernizing Facebook Scoped Search: Keyword and Embedding Hybrid Retrieval with LLM Evaluation
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/Modernizing_Facebook_Scoped_Search__Keyword_and_Embedding_Hybrid_Retrieval_with_LLM_Evaluation.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">Meta</span></p>
+<p>本文提出了一种将传统关键词检索与基于嵌入的检索（EBR）融合的Facebook Group Scoped Search混合框架，通过并行召回、特征融合和多任务多标签（MTML）排名模型提升了搜索相关性和多样性。为大规模评测，设计了基于多模态大语言模型（如Llama 3）的自动化评测框架，显著提升了搜索质量和用户参与度，验证了混合系统的有效性。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/Modernizing_Facebook_Scoped_Search_Keyword_and_Embedding_Hybrid_Retrieval_with_LLM_Evaluation.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h2 id="ml">Machine Learning</h2>
+
+
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.14225v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      103. Defending Diffusion Models Against Membership Inference Attacks via Higher-Order Langevin Dynamics
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/Defending_Diffusion_Models_Against_Membership_Inference_Attacks_via_Higher-Order_Langevin_Dynamics.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">Stony Brook University</span></p>
+<p>本文提出利用临界阻尼高阶Langevin动力学（HOLD++）提升扩散模型对成员推断攻击（MIA）的防御能力，通过引入多个辅助变量和联合扩散过程，将外部随机性更早混入以扰动敏感数据，并理论证明其满足Renyi微分隐私，实验在Swiss Roll和LJ Speech数据集上验证，结果显示提升模型阶数和初始方差可显著降低攻击有效性（AUROC变低），在隐私保护和生成质量之间取得更优权衡。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/Defending_Diffusion_Models_Against_Membership_Inference_Attacks_via_Higher-Order_Langevin_Dynamics.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.14216v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      104. A Universal Banach–Bregman Framework for Stochastic Iterations: Unifying Stochastic Mirror Descent, Learning and LLM Training
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/A_Universal_Banach--Bregman_Framework_for_Stochastic_Iterations__Unifying_Stochastic_Mirror_Descent,.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">Independent Researcher</span></p>
+<p>本论文提出了一个普适性的Banach–Bregman框架，用于统一分析和加速随机优化算法，包括镜像下降、自然梯度、AdaGrad、RMSProp、Mirror-Prox及其超松弛（over-relaxation）变体，突破了传统Hilbert空间内积几何的限制，扩展到更广泛的Banach空间和Bregman几何。通过Bregman–Fejér单调性理论，论文首次在非Hilbert空间下严格证明了超松弛参数（λ&gt;2）的收敛性，加速了收敛速度，并在机器学习、深度学习、强化学习和大语言模型训练等多领域实验中实现高达20%的收敛提速和方差降低。结论：Banach–Bregman几何为现代AI核心优化问题提供了统一理论和实践基础，具有广泛适用性和加速效果。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/A_Universal_Banach%E2%80%93Bregman_Framework_for_Stochastic_Iterations_Unifying_Stochastic_Mirror_Descent_Learning_and_LLM_Training.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.14198v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      105. A Variational Framework for Residual-Based Adaptivity in Neural PDE Solvers and Operator Learning
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/A_Variational_Framework_for_Residual-Based_Adaptivity_in_Neural_PDE_Solvers_and_Operator_Learning.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">Brown University</span></p>
+<p>该论文提出了一个统一的变分理论框架，形式化并优化了残差驱动的自适应采样和加权方法，广泛应用于科学机器学习中的神经偏微分方程（PDE）求解与算子学习。方法通过变分公式将残差的凸变换引入目标函数，理论上证明了自适应采样分布与误差度量的直接联系，统一了Residual-based Attention (RBA)和Adaptive Distribution (RAD)等技术，并提出了针对不同损失函数的适配策略。结论：该框架能系统性地设计跨范数的自适应方案，显著降低离散化误差，提升梯度信噪比，加快收敛速度，并在PINNs和多种神经算子架构上验证了泛化和精度提升。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/A_Variational_Framework_for_Residual-Based_Adaptivity_in_Neural_PDE_Solvers_and_Operator_Learning.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.14061v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      106. Queen Detection in Beehives via Environmental Sensor Fusion for Low-Power Edge Computing
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/Queen_Detection_in_Beehives_via_Environmental_Sensor_Fusion_for_Low-Power_Edge_Computing.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">Institute of Neuroinformatics, University of Zurich and ETH Zurich</span></p>
+<p>该论文提出了一种基于环境传感器融合（温度、湿度和压力差）及量化决策树模型的低功耗蜂后检测系统，能够在STM32微控制器上实时运行。实验显示无需音频输入即可达到99%以上检测准确率，系统具备高能效和可扩展性，适用于大规模、非侵入式蜂群健康监测。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/Queen_Detection_in_Beehives_via_Environmental_Sensor_Fusion_for_Low-Power_Edge_Computing.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.14049v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      107. Comprehensive Evaluation of CNN-Based Audio Tagging Models on Resource-Constrained Devices
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/Comprehensive_Evaluation_of_CNN-Based_Audio_Tagging_Models_on_Resource-Constrained_Devices.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">Instituto Tecnologico de Informatica (ITI)</span></p>
+<p>本文系统评估了多种基于CNN的音频标注模型（包括PANNs系列、ConvNeXt、MobileNetV1&#x2F;V2&#x2F;V3及CNN9&#x2F;13）在树莓派等资源受限设备上的部署表现，涵盖模型转换为ONNX格式后的推理效率、24小时连续稳定性、温度变化及系统可用性。结果表明，轻量级模型如MobileNetV3部分配置和PANNs-CNN6在推理延迟和温度控制上具备优势，适合实时推理场景，而部分大型模型在有图形界面时存在过热和延迟问题，影响实际部署。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/Comprehensive_Evaluation_of_CNN-Based_Audio_Tagging_Models_on_Resource-Constrained_Devices.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.14037v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      108. PhenoGnet: A Graph-Based Contrastive Learning Framework for Disease Similarity Prediction
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/PhenoGnet__A_Graph-Based_Contrastive_Learning_Framework_for_Disease_Similarity_Prediction.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">Clemson University</span></p>
+<p>该论文提出了PhenoGnet框架，通过图卷积网络（GCN）和图注意力网络（GAT）分别编码基因和表型图，并利用共享权重多层感知机（MLP）实现跨视图对比学习，融合基因功能交互网络与人类表型本体（HPO），以预测疾病相似性。实验结果显示，PhenoGnet在罕见疾病对相似性预测上优于现有方法，能捕捉隐含的生物学关系，为疾病诊断和精准医疗提供可扩展、可解释的方案。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/PhenoGnet_A_Graph-Based_Contrastive_Learning_Framework_for_Disease_Similarity_Prediction.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.14003v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      109. RFM-Editing: Rectified Flow Matching for Text-guided Audio Editing
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/RFM-Editing__Rectified_Flow_Matching_for_Text-guided_Audio_Editing.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">University of Surrey</span></p>
+<p>本文提出了一种基于Rectified Flow Matching（RFM）的端到端高效扩散模型框架RFM-Editing，专为文本指导下的音频编辑任务设计。方法利用LoRA微调的Flan-T5文本编码器和U-Net扩散模型，有效实现对原始音频的指令驱动编辑，无需辅助字幕或遮罩，并构建了包含重叠多事件音频的大规模数据集以支持复杂场景。实验结果表明，RFM-Editing可自动定位与指令相关的音频时间片段，实现高质量的语义对齐和精准编辑，且在编辑效率和分布一致性等多项指标上优于现有方法。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/RFM-Editing_Rectified_Flow_Matching_for_Text-guided_Audio_Editing.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.13975v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      110. Classification Filtering
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/Classification_Filtering.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">Whoop, Boston, MA, USA</span></p>
+<p>本文提出了一种结合多分类器输出并利用时序信息提升流数据分类准确性的贝叶斯状态空间滤波算法。通过将不同精度的分类器概率视为噪声观测，设计参数化的可实时更新规则，并在可穿戴设备的IMU活动识别任务中验证：区分强弱分类器并进行时序平滑能进一步提升准确率，优于简单平均和统一平滑方法。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/Classification_Filtering.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.13906v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      111. TFMAdapter: Lightweight Instance-Level Adaptation of Foundation Models for Forecasting with Covariates
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/TFMAdapter__Lightweight_Instance-Level_Adaptation_of_Foundation_Models_for_Forecasting_with_Covariat.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">Indian Institute of Technology Bombay</span></p>
+<p>本文提出TFMAdapter，一种无需微调、可实例级适配时间序列基础模型以利用协变量的新方法。方法包括两阶段：首先用回归模型结合有限窗口历史和基础模型预测生成伪预测；然后训练高斯过程回归器，将协变量与伪预测融合以优化最终预测。实验表明，TFMAdapter在多个真实数据集上显著提升基础模型预测精度，平均提升24–27%，同时数据和算力开销极小。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/TFMAdapter_Lightweight_Instance-Level_Adaptation_of_Foundation_Models_for_Forecasting_with_Covariates.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.13878v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      112. Mixture of Low-Rank Adapter Experts in Generalizable Audio Deepfake Detection
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/Mixture_of_Low-Rank_Adapter_Experts_in_Generalizable_Audio_Deepfake_Detection.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">University of Eastern Finland</span></p>
+<p>该论文提出了一种基于Wav2Vec2与AASIST的音频深度伪造检测方法，通过在Transformer注意力层集成多个低秩适配器（LoRA）专家，并引入稀疏门控路由机制动态选择专家输出，实现对不同伪造信号的自适应检测。实验表明，所提出的MoE-LoRA模型在多个域外数据集上的平均等错误率（EER）从8.55%降至6.08%，显著提升了模型的泛化能力。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/Mixture_of_Low-Rank_Adapter_Experts_in_Generalizable_Audio_Deepfake_Detection.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.13805v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      113. Towards a Physics Foundation Model
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/Towards_a_Physics_Foundation_Model.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">School of Data Science, University of Virginia</span></p>
+<p>本文提出了General Physics Transformer (GPhyT)，一种基于Transformer的混合神经网络架构，通过在1.8TB多物理仿真数据上训练，实现了无需显式物理特征即可对流体、热对流、多相流等多类物理系统的统一建模。实验表明，GPhyT不仅在已知物理任务上大幅超越了FNO和UNet等专用模型，还具备零样本泛化和长时序稳定预测能力，首次验证了单一模型能够通过上下文推理习得可迁移的物理原理，为实现通用物理基础模型（PFM）奠定了基础。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/Towards_a_Physics_Foundation_Model.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.13735v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      114. State Space Models over Directed Graphs
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/State_Space_Models_over_Directed_Graphs.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">Beijing Institute of Technology</span></p>
+<p>本文提出DirGraphSSM，一种面向有向图学习的创新状态空间模型（SSM）架构。其核心方法包括DirEgo2Token（基于k跳有向自中心图的序列化）、Digraph SSM Scan（基于消息传递机制的高效SSM扫描）、DepthPlus位置编码和DirGatedGCN结构编码，并引入Digraph Fusion Attention模块实现多头注意力特征融合。实验结果表明，DirGraphSSM在多个有向图学习任务上取得了优异或领先的准确率，同时训练效率较同类最优方法提升1.5-2倍，在大规模稀疏有向图场景下实现了效率与性能的最佳平衡。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/State_Space_Models_over_Directed_Graphs.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.13653v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      115. Efficient Last-Iterate Convergence in Regret Minimization via Adaptive Reward Transformation
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/Efficient_Last-Iterate_Convergence_in_Regret_Minimization_via_Adaptive_Reward_Transformation.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">Harbin Institute of Technology (Shenzhen)</span></p>
+<p>该论文提出了一种自适应奖励变换（Adaptive Reward Transformation, RT）技术，应用于遗憾最小化（regret minimization）算法（如RM、CFR及其变体），用于求解二人零和博弈的纳什均衡，重点提升最后一次迭代（last-iterate）的收敛性能。方法包括自适应选择参考策略、动态调整RT权重以及引入折扣遗憾权重以提升遗憾累积效率。实验表明，该自适应方法在普通和扩展形式博弈（NFGs和EFGs）中显著加速收敛，优于最新的同类算法。结论：自适应RT技术可显著提升遗憾最小化算法的最后一次迭代收敛速度和稳定性。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/Efficient_Last-Iterate_Convergence_in_Regret_Minimization_via_Adaptive_Reward_Transformation.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.13648v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      116. Sequential Data Augmentation for Generative Recommendation
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/Sequential_Data_Augmentation_for_Generative_Recommendation.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">KAIST</span></p>
+<p>本文针对生成式推荐模型的数据增强策略进行了系统分析，提出了GenPAS框架，将训练样本生成过程统一为带有偏置控制的三步概率采样（序列采样、目标采样、输入采样），并通过参数调优高效优化训练数据分布。实验证明，GenPAS能显著提升推荐准确率、数据和参数效率，且在多种公开和工业数据集上优于常用增强策略。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/Sequential_Data_Augmentation_for_Generative_Recommendation.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.13633v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      117. DeepLogit: A sequentially constrained explainable deep learning modeling approach for transport policy analysis
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/DeepLogit__A_sequentially_constrained_explainable_deep_learning_modeling_approach_for_transport_poli.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">Institute of High Performance Computing (IHPC), Agency for Science, Technology and Research (A*STAR)</span></p>
+<p>该论文提出了一种名为DeepLogit的分步约束解释型深度学习方法，结合了多项Logit模型（MNL）与深度神经网络（包括卷积神经网络和Transformer）对交通出行路径选择进行建模。其核心流程为：首先用CNN实现等价于线性参数MNL模型，获得可解释参数；随后将核心政策变量参数固定，利用深度学习模型（包括二阶特征扩展和Transformer自注意力机制）提升预测性能，同时保持部分参数可解释性。实验以新加坡公交刷卡大数据为例，结果表明该方法在保持政策变量解释性的同时，显著提升了模型准确率（MNL模型75%提升至约83%），并量化了预测性能与可解释性之间的权衡。结论指出，该方法为交通政策分析提供了可兼顾解释性与高性能预测的统一范式，适用于大规模实际数据挖掘和城市交通规划决策。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/DeepLogit_A_sequentially_constrained_explainable_deep_learning_modeling_approach_for_transport_policy_analysis.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+<h3> 
+<a target="_blank" rel="noopener" href="http://arxiv.org/pdf/2509.13621v1" 
+       style="text-decoration: none; color: inherit;" 
+       onmouseover="this.style.textDecoration='underline';" 
+       onmouseout="this.style.textDecoration='none';">
+      118. Unsupervised Anomaly Detection in ALS EPICS Event Logs
+</a> 
+<a target="_blank" rel="noopener" href="http://172.16.18.71:5000/pdfs/papers_auto_crawl/2025/2025-09/2025-09-18/arxiv/Unsupervised_Anomaly_Detection_in_ALS_EPICS_Event_Logs.pdf">
+    [PDF]
+</a> 
+</h3>
+
+<p><span style="
+    font-size: 15px !important; 
+    color: #555 !important; 
+    background: #f9f9f9 !important; 
+    padding: 6px 10px !important; 
+    border-radius: 4px !important; 
+    margin: 6px 0 8px !important; 
+    display: inline-block !important; 
+    font-style: italic !important;     /* 斜体 */
+    font-weight: bold !important;      /* 加粗 */
+">Lawrence Berkeley National Laboratory</span></p>
+<p>该论文提出了一种无监督异常检测框架，用于分析ALS EPICS控制系统的实时事件日志。方法将日志作为自然语言，通过NLP嵌入（Word2Vec）将事件转为向量，并采用深度一类分类（GRU+SVDD）模型对事件序列进行异常评分。结论表明，该方法能有效区分常规操作与故障相关事件序列，自动识别并定位系统异常前的关键事件，对实际运维有显著辅助作用。</p>
+<img src="http://172.16.18.71:9000/paper-anker/2025-09-19/Unsupervised_Anomaly_Detection_in_ALS_EPICS_Event_Logs.jpg" srcset="/img/loading.gif" lazyload alt="论文配图" width="300px" style="display: block; margin: 0 auto;" />
+
+<hr>
+
+                
+              </div>
+            
+            <hr/>
+            <div>
+              <div class="post-metas my-3">
+  
+    <div class="post-meta mr-3 d-flex align-items-center">
+      <i class="iconfont icon-category"></i>
+      
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/Robot/" class="category-chain-item">Robot</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+    </div>
+  
+  
+</div>
+
+
+              
+  
+
+  <div class="license-box my-3">
+    <div class="license-title">
+      <div>2025/09/19报纸</div>
+      <div>http://ywfhhh.github.io/Robot/2025-09-19_article/</div>
+    </div>
+    <div class="license-meta">
+      
+        <div class="license-meta-item">
+          <div>作者</div>
+          <div>具身ADT</div>
+        </div>
+      
+      
+        <div class="license-meta-item license-meta-date">
+          <div>发布于</div>
+          <div>2025年9月19日</div>
+        </div>
+      
+      
+      
+        <div class="license-meta-item">
+          <div>许可协议</div>
+          <div>
+            
+              
+              
+                <a class="print-no-link" target="_blank" href="https://creativecommons.org/licenses/by/4.0/">
+                  <span class="hint--top hint--rounded" aria-label="BY - 署名">
+                    <i class="iconfont icon-cc-by"></i>
+                  </span>
+                </a>
+              
+            
+          </div>
+        </div>
+      
+    </div>
+    <div class="license-icon iconfont"></div>
+  </div>
+
+
+
+              
+                <div class="post-prevnext my-3">
+                  <article class="post-prev col-6">
+                    
+                    
+                      <a href="/Robot/2025-09-22_article/" title="2025/09/22报纸">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">2025/09/22报纸</span>
+                        <span class="visible-mobile">上一篇</span>
+                      </a>
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/Robot/2025-09-18_article/" title="2025/09/18报纸">
+                        <span class="hidden-mobile">2025/09/18报纸</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+  
+  
+    <article id="comments" lazyload>
+      
+  <div id="valine"></div>
+  <script type="text/javascript">
+    Fluid.utils.loadComments('#valine', function() {
+      Fluid.utils.createScript('https://lib.baomitu.com/valine/1.5.1/Valine.min.js', function() {
+        var options = Object.assign(
+          {"appId":"opdC4BuOPaDCEVIDXc9OKzUp-gzGzoHsz","appKey":"va2F2XvdFvtuyZh8JscAcxdH","path":"window.location.pathname","placeholder":"欢迎交流讨论...","avatar":"retro","meta":["nick","mail","link"],"requiredFields":[],"pageSize":10,"lang":"zh-CN","highlight":false,"recordIP":false,"serverURLs":"","emojiCDN":null,"emojiMaps":null,"enableQQ":false,"enable":true,"appid":"opdC4BuOPaDCEVIDXc9OKzUp-gzGzoHsz","appkey":"va2F2XvdFvtuyZh8JscAcxdH","notify":false,"verify":false},
+          {
+            el: "#valine",
+            path: window.location.pathname
+          }
+        )
+        new Valine(options);
+        Fluid.utils.waitElementVisible('#valine .vcontent', () => {
+          var imgSelector = '#valine .vcontent img:not(.vemoji)';
+          Fluid.plugins.imageCaption(imgSelector);
+          Fluid.plugins.fancyBox(imgSelector);
+        })
+      });
+    });
+  </script>
+  <noscript>Please enable JavaScript to view the comments</noscript>
+
+
+    </article>
+  
+
+
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+  <aside class="sidebar" style="margin-left: -1rem">
+    <div id="toc">
+  <p class="toc-header">
+    <i class="iconfont icon-list"></i>
+    <span>目录</span>
+  </p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+
+
+  </aside>
+
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+    
+
+    
+      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v" for="local-search-input">关键词</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+  
+    <div class="footer-content">
+       <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
+    </div>
+  
+  
+    <div class="statistics">
+  
+  
+
+  
+    
+      <span id="busuanzi_container_site_pv" style="display: none">
+        总访问量 
+        <span id="busuanzi_value_site_pv"></span>
+         次
+      </span>
+    
+    
+      <span id="busuanzi_container_site_uv" style="display: none">
+        总访客数 
+        <span id="busuanzi_value_site_uv"></span>
+         人
+      </span>
+    
+    
+
+  
+
+</div>
+
+  
+  
+</div>
+
+  </footer>
+
+  <!-- Scripts -->
+  
+  <script  src="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://lib.baomitu.com/jquery/3.6.4/jquery.min.js" ></script>
+<script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+
+  <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var subtitle = document.getElementById('subtitle');
+      if (!subtitle || !typing) {
+        return;
+      }
+      var text = subtitle.getAttribute('data-typed-text');
+      
+        typing(text);
+      
+    })(window, document);
+  </script>
+
+
+
+
+  
+    <script  src="/js/img-lazyload.js" ></script>
+  
+
+
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/tocbot/4.20.1/tocbot.min.js', function() {
+    var toc = jQuery('#toc');
+    if (toc.length === 0 || !window.tocbot) { return; }
+    var boardCtn = jQuery('#board-ctn');
+    var boardTop = boardCtn.offset().top;
+
+    window.tocbot.init(Object.assign({
+      tocSelector     : '#toc-body',
+      contentSelector : '.markdown-body',
+      linkClass       : 'tocbot-link',
+      activeLinkClass : 'tocbot-active-link',
+      listClass       : 'tocbot-list',
+      isCollapsedClass: 'tocbot-is-collapsed',
+      collapsibleClass: 'tocbot-is-collapsible',
+      scrollSmooth    : true,
+      includeTitleTags: true,
+      headingsOffset  : -boardTop,
+    }, CONFIG.toc));
+    if (toc.find('.toc-list-item').length > 0) {
+      toc.css('visibility', 'visible');
+    }
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('tocbot' in window) {
+        tocbot.refresh();
+        var toc = jQuery('#toc');
+        if (toc.length === 0 || !tocbot) {
+          return;
+        }
+        if (toc.find('.toc-list-item').length > 0) {
+          toc.css('visibility', 'visible');
+        }
+      }
+    });
+  });
+</script>
+
+
+  <script src=https://lib.baomitu.com/clipboard.js/2.0.11/clipboard.min.js></script>
+
+  <script>Fluid.plugins.codeWidget();</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/anchor-js/5.0.0/anchor.min.js', function() {
+    window.anchors.options = {
+      placement: CONFIG.anchorjs.placement,
+      visible  : CONFIG.anchorjs.visible
+    };
+    if (CONFIG.anchorjs.icon) {
+      window.anchors.options.icon = CONFIG.anchorjs.icon;
+    }
+    var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+    var res = [];
+    for (var item of el) {
+      res.push('.markdown-body > ' + item.trim());
+    }
+    if (CONFIG.anchorjs.placement === 'left') {
+      window.anchors.options.class = 'anchorjs-link-left';
+    }
+    window.anchors.add(res.join(', '));
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('anchors' in window) {
+        anchors.removeAll();
+        var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+        var res = [];
+        for (var item of el) {
+          res.push('.markdown-body > ' + item.trim());
+        }
+        if (CONFIG.anchorjs.placement === 'left') {
+          anchors.options.class = 'anchorjs-link-left';
+        }
+        anchors.add(res.join(', '));
+      }
+    });
+  });
+</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.js', function() {
+    Fluid.plugins.fancyBox();
+  });
+</script>
+
+
+  <script>Fluid.plugins.imageCaption();</script>
+
+  <script  src="/js/local-search.js" ></script>
+
+  <script defer src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" ></script>
+
+
+
+
+
+<!-- 主题的启动项，将它保持在最底部 -->
+<!-- the boot of the theme, keep it at the bottom -->
+<script  src="/js/boot.js" ></script>
+
+
+  
+
+  <noscript>
+    <div class="noscript-warning">博客在允许 JavaScript 运行的环境下浏览效果更佳</div>
+  </noscript>
+</body>
+</html>
